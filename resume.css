@@ -510,6 +510,14 @@ section:nth-child(2n){
 	justify-content: center;
 }
 
+.award-image-placeholder img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	border-radius: 8px;
+	display: block;
+}
+
 .award-image-placeholder i{
 	font-size: 55px;
 	color: #d6a300;
