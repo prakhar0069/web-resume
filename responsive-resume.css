@@ -1,11 +1,11 @@
 /* =====================================================
-   HEADER
+   HEADER - MOBILE
 ===================================================== */
 
 @media screen and (max-width: 600px){
 
     #body-header{
-        height: 55vh;
+        height: 50vh;
     }
 
     .horizental-list{
@@ -21,10 +21,11 @@
         font-size: 12px;
         font-weight: 500;
         text-decoration: none;
+        transition: color 0.5s;
     }
 
     #my-name{
-        margin-top: 15vh;
+        margin-top: 18vh;
         font-size: 3rem;
         color: white;
         font-weight: 600;
@@ -32,136 +33,158 @@
     }
 
     #hero-title{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
+        margin-top: 8px;
     }
 
     #hero-stack{
-        font-size: 0.85rem;
+        font-size: 0.9rem;
+        margin-top: 6px;
+    }
+
+    .social-icons{
+        margin-bottom: 0px;
+    }
+
+    .social-icons li{
+        margin-top: 0px;
     }
 
     .social-icons li a{
-        width: 35px;
-        height: 35px;
-        font-size: 22px;
+        font-size: 1.5rem;
     }
 
 }
 
 
 /* =====================================================
-   ABOUT
+   ABOUT - MOBILE
 ===================================================== */
 
 @media screen and (max-width: 600px){
 
-    #my-image{
+    #about{
+        margin-bottom: 0;
+        padding-bottom: 30px;
+    }
 
+    #my-image{
         height: 12rem;
         width: 12rem;
+        margin: 10px auto 25px auto;
+    }
 
-        margin: auto;
-
-        margin-bottom: -50px;
+    #my-image img{
+        margin-top: 0;
     }
 
     #about h3{
-
         font-size: 16px;
-
         width: 85vw;
-
-        margin-bottom: 3rem;
-
+        margin-top: 10px;
+        margin-bottom: 15px;
         text-align: center;
-
-        margin-top: -20px;
-    }
-
-    #about h3 small{
-        font-size: 1rem;
     }
 
     #about p{
-
-        margin: auto;
-
+        margin: 15px auto;
         width: 85vw;
-
         font-size: 14px;
-
         color: #554d4d;
-
-        margin-top: -10px;
-
-        margin-bottom: 25px;
+        font-family: serif;
     }
 
 }
 
 
 /* =====================================================
-   SKILLS
+   SKILLS - MOBILE
 ===================================================== */
 
 @media screen and (max-width: 600px){
 
     .skill-progress{
         width: 13rem;
-        margin: 20px;
     }
 
 }
 
 
 /* =====================================================
-   PROJECTS
+   PROJECTS - MOBILE
 ===================================================== */
 
 @media screen and (max-width: 600px){
 
     .timeline-divider{
-
         left: -5%;
-
         height: 85.8%;
     }
 
     .timeline-box:nth-child(2n+1)::after{
-
         left: -18.8%;
-
-        right: auto;
     }
 
     .timeline-box:nth-child(2n)::after{
-
         left: -18.8%;
     }
 
     .timeline-box{
-
         width: 90%;
-
         left: 8% !important;
     }
 
     .timeline{
-
         margin-bottom: 60px;
-
-        width: 82%;
-    }
-
-    .professional-project-image{
-        height: 130px;
-        font-size: 45px;
     }
 
 }
 
 
 /* =====================================================
-   EXPERIENCE
+   EDUCATION - MOBILE
+===================================================== */
+
+@media screen and (max-width: 600px){
+
+    #education{
+        background-color: #ffffff;
+        background-image: linear-gradient(
+            90deg,
+            #fffefb 0%,
+            #fdeef3 100%
+        );
+    }
+
+    .educations .card-deck{
+        width: 80vw;
+    }
+
+}
+
+
+/* =====================================================
+   CERTIFICATION - MOBILE
+===================================================== */
+
+@media screen and (max-width: 600px){
+
+    .certification-deck{
+        display: block;
+        width: 85vw;
+    }
+
+    .certificate-card{
+        width: 100%;
+        min-width: 0;
+        margin-bottom: 30px;
+    }
+
+}
+
+
+/* =====================================================
+   EXPERIENCE / AWARD - MOBILE
 ===================================================== */
 
 @media screen and (max-width: 600px){
@@ -170,115 +193,66 @@
         width: 85vw;
     }
 
-    .experience-company{
-        padding: 22px;
-    }
-
     .experience-company h2{
         font-size: 1.5rem;
     }
 
     .experience-company h3{
         font-size: 1.2rem;
+        margin-bottom: 10px;
     }
 
+    .experience-company p,
     .experience-company li{
         font-size: 14px;
+        line-height: 1.5;
     }
 
     .award-card{
+        display: block;
+        width: 100%;
         padding: 20px;
+        margin-top: 25px;
+    }
+
+    .award-image-placeholder{
+        margin: 0 auto 20px auto;
+    }
+
+    .award-content{
+        text-align: center;
     }
 
 }
 
 
 /* =====================================================
-   EDUCATION
-===================================================== */
-
-@media screen and (max-width: 600px){
-
-    #education{
-
-        background-color: #ffffff;
-
-        background-image:
-            linear-gradient(
-                90deg,
-                #fffefb 0%,
-                #fdeef3 100%
-            );
-    }
-
-    .educations .card-deck{
-
-        width: 80vw;
-
-        display: block;
-    }
-
-    .educations .card{
-
-        margin-bottom: 25px !important;
-    }
-
-}
-
-
-/* =====================================================
-   CERTIFICATION
-===================================================== */
-
-@media screen and (max-width: 600px){
-
-    .certification-deck{
-
-        width: 80vw;
-
-        display: block;
-    }
-
-    .certificate-card{
-
-        margin-bottom: 25px;
-    }
-
-}
-
-
-/* =====================================================
-   CONTACT
+   CONTACT - MOBILE
 ===================================================== */
 
 @media screen and (max-width: 600px){
 
     .contact-details{
-
-        width: 75vw;
-
-        display: block;
-
-        margin-bottom: 100px;
+        width: 85vw;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 120px;
+        gap: 20px;
     }
 
-    .contact-details > div{
+    .contact-details div{
+        width: 50%;
+    }
 
-        margin-bottom: 40px;
+    .contact-details div h4{
+        font-size: 18px;
+        margin-bottom: 25px;
     }
 
     .contact-details p{
-
         margin-bottom: 25px;
-
-        margin-left: 1rem;
-
-        font-size: 14px;
-    }
-
-    .contact-details h4{
-
-        font-size: 18px;
+        margin-left: 0.5rem;
+        font-size: 13px;
     }
 
 }
