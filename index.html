@@ -1,444 +1,1119 @@
- <!DOCTYPE html> 
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <script  src="https://kit.fontawesome.com/b3348ae33f.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+    <meta charset="UTF-8">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1 , minimum-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
+    <meta name="description"
+          content="Prakhar Srivastava - Backend Developer specializing in C#, .NET, SQL Server and Azure.">
 
+    <meta name="keywords"
+          content="Backend Developer, C#, .NET, ASP.NET Core, SQL Server, Azure, Azure Functions, Azure Container Apps">
 
-	<link rel="shortcut icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/9322/9322105.png">
-	<link rel="stylesheet" type="text/css" href="resume.css">
-    <link rel="stylesheet" type="text/css" href="responsive-resume.css">
-	<title> Prakhar Srivastava</title>
+    <meta name="author"
+          content="Prakhar Srivastava">
+
+    <title>Prakhar Srivastava | Backend Developer</title>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b3348ae33f.js"
+            crossorigin="anonymous"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet"
+          href="resume.css">
+
+    <link rel="stylesheet"
+          href="responsive-resume.css">
 </head>
+
 <body>
-	<header id="body-header">
-		<nav>
-              <ul class="horizental-list  text-center nav-menu">
-                   <li> <a href="#about">About</a></li>
-                   <li> <a href="#skills">Skills</a></li>
-                   <li> <a href="#projects">Projects</a></li>
-                   <li> <a href="#education">Education</a></li>
-                   <li> <a href="#certificates">Certificates</a></li>
-                   <li> <a href="#details">Details</a></li>
-                   <li> <a href="#contact">Contact</a></li>
-              </ul>       
-		</nav>
 
-		<div class="text-center ">
-            <h1 id="my-name" >
-            Prakhar Srivastava
-            </h1>
-        </div>
-        <div>
-            <ul class="horizental-list text-center social-icons">
-                <li>
-                    <a href="https://www.linkedin.com/in/prateek-rai-769766183/" target="_blank">
-                        <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000015_1549330433_linkedin-logo.png" alt="" />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/Prateek007rai" target="_blank" class="git-img">
-                        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" />
-                    </a>
-                </li>
-            </ul>
+<!-- =========================================================
+     NAVIGATION
+========================================================= -->
 
-        </div>
+<header class="header" id="home">
 
-	</header>
+    <nav class="navbar">
 
-	<main>
-<!----------------------------------------------------- about section ----------------------------------------------------->
-		<section id= "about">
-			<div id="my-image">
-                  <img src="./images/MyPic.jpg" >
-			</div>
-            <h3 >
-                <small class="text-muted"><b>Full Stack Web Developer | Frontend React.Js Developer | Backend java Developer</b></small>
-            </h3>
-			<p id="para" class="text-muted">
-                I am Prakhar Srivastava, B.Tech Graduate in Civil Engineering from Prayagraj. Last year, I joined 6 months Post Graduate Diploma in Advanced Computing course from Center for Development of Advanced Computing(CDAC) Kharghar. There I learned skills like: Java, Springboot, Hibernate, JSP, Servlet, JDBC, React.js ,Node.js, Html5 , Css, Bootstrap, Mongodb, MySql, C#, Asp .Net MVC , Javascipt with verified Excellence Degree Certificate. I made several Projects using these skills like: Elektrokart (An E-commerce Website) , MediCare (An Online Doctor Appointment System), BulkyBookWeb (Book Store Management Application).
-			</p>
-            <br>
-            <br>
-            <p id="para" class="text-muted">
-                I enjoy connecting with new people and also I am open to interesting new technologies , I wanna skill up myself as much as I can, that's why I joined CDAC. If we talk about my free time, I spend my free time in fulfilling my hobbies like: Singing, Dancing, Poetry, Watching movies, Travelling and Reading. For me , work life balance is very important, after the work I wanna spend my most of the time with my family only.
+        <a href="#home" class="logo">
+            Prakhar.
+        </a>
+
+        <button class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Open navigation menu">
+
+            <i class="fa-solid fa-bars"></i>
+
+        </button>
+
+        <ul class="nav-links" id="nav-links">
+
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+
+            <li>
+                <a href="#education">Education</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- =====================================================
+         HERO
+    ====================================================== -->
+
+    <div class="hero">
+
+        <div class="hero-content">
+
+            <p class="hero-label">
+                BACKEND DEVELOPER
             </p>
-			
-		</section>
 
-<!-- --------------------------------------------------- skills section --------------------------------------------------- -->
-		<section id= "skills">
-                    <h1 class="section-heading mb75px">
-                        <span><i class="fa-solid fa-chalkboard-user"></i></span>
-                        <span>SKILLS</span>
-                    </h1>
-                    <div id="skills-container" class="skill-display">
-                            <div class="skill-progress">
-                                <div class="eighty-five-percent mb-ogn" data-bar-width="85">   
-                                    <div class="skill-name">
-                                            <span> Java </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="ninty-percent mb-cyan" data-bar-width="90">
-                                    <div class="skill-name">
-                                        <span>React.Js</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="skill-progress">
-                                <div class="eighty-five-percent mb-orange"   data-bar-width="85">
-                                    <div class="skill-name">
-                                        <span> Node.Js </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="ninty-percent mb-gn" data-bar-width="85">
-                                    <div class="skill-name">
-                                        <span> Data Structures </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="eighty-percent mb-light-purple"   data-bar-width="80">
-                                    <div class="skill-name">
-                                        <span> Javascript </span>
-                                    </div>
-                                </div>
-                            </div>                            
-                            <div class="skill-progress">
-                                <div class="ninty-percent mb-blue" data-bar-width="90">
-                                    <div class="skill-name">
-                                        <span> Html </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="ninty-percent mb-pink" data-bar-width="90">
-                                    <div class="skill-name">
-                                        <span> CSS </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="eighty-five-percent mb-teal"  data-bar-width="85">
-                                    <div class="skill-name">
-                                        <span> MySQL </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="eighty-five-percent mb-brown" data-bar-width="80">
-                                    <div class="skill-name">
-                                        <span> Springboot </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="eighty-percent mb-red" data-bar-width="80">
-                                    <div class="skill-name">
-                                        <span> Express </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="ninty-percent mb-org" data-bar-width="90">
-                                    <div class="skill-name">
-                                        <span> Bootstrap </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="ninty-percent mb-ogn" data-bar-width="85">
-                                    <div class="skill-name">
-                                        <span> PostMan </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="ninty-percent mb-ogn" data-bar-width="85">
-                                    <div class="skill-name">
-                                        <span> Spring Framework </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="ninty-percent mb-ogn" data-bar-width="85">
-                                    <div class="skill-name">
-                                        <span> C# </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="ninty-percent mb-ogn" data-bar-width="85">
-                                    <div class="skill-name">
-                                        <span> ASP .Net MVC </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="ninty-percent mb-ogn" data-bar-width="85">
-                                    <div class="skill-name">
-                                        <span> Git </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="skill-progress">
-                                <div class="ninty-percent mb-ogn" data-bar-width="85">
-                                    <div class="skill-name">
-                                        <span> Docker </span>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>	
-		</section>
-
-<!------------------------------------------------------ Projects Section -----------------------------------  -->
-
-		<section id= "projects">
-            <h1 class="section-heading mb75px">
-               <span><i class="fas fa-briefcase"></i></span>
-               <span> Projects </span>
+            <h1>
+                Prakhar Srivastava
             </h1>
 
-           <div class="timeline">
-                <div class="timeline-box">
-                    <div class="card" >
-                        <img src="https://www.meswadeoband.org/wp-content/uploads/2021/01/doctor.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h2 class="card-title">MediCare</h2>
-                          <p class="card-text">Book your Doctor's Appointment Online</p>
-                          <h6 class="card-subtitle mb-2 text-muted"><b>Tech used :</b> Springboot, React.Js, Html5, Css3, Bootstrap, Hooks, Props, MySQL, Github</h6>
-                          <a href="https://github.com/prakhar0069/Medicare" target="_blank" class="card-link">Github Link</a><br>
-                        </div>
-                    </div>                        
-                </div>
-                <div class="timeline-box">
-                    <div class="card" >
-                        <img src="https://images.unsplash.com/photo-1468495244123-6c6c332eeece?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1921&q=80" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h2 class="card-title">ElektroKart</h2>
-                          <p class="card-text">E-Commerce Platform, where people can purchase electronic products</p>
-                          <h6 class="card-subtitle mb-2 text-muted"><b>Tech used :</b> React.Js, MySQL, Springboot, JPA, Docker, AWS, Swagger, MVC, Mockito, JWT, Redux, Hooks, Firebase, Javascript, Html5, Css3, Bootstrap, Github</h6>
-                          <a href="https://github.com/prakhar0069/ElectroKart" target="_blank" class="card-link">Github Link</a><br>
-                          <a href="http://65.1.17.247:9091" target="_blank" class="card-link">Hosted Link</a>
-                          <a href="http://65.1.17.247:9091/swagger-ui.html" target="_blank" class="card-link">Documentation Link</a>
-                        </div>
-                    </div>                        
-                </div>
-                <div class="timeline-box">
-                    <div class="card" >
-                        <img src="https://images.unsplash.com/photo-1599658880436-c61792e70672?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZGF0YSUyMHN0b3JlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h2 class="card-title">BulkyBookWeb</h2>
-                          <p class="card-text">Book Store Management Application</p>
-                          <h6 class="card-subtitle mb-2 text-muted"><b>Tech used :</b> C#, ASP .Net MVC Core, Azure, MVC, Razor pages, Entity Framework Core, Github</h6>
-                        </div>
-                    </div>                        
+            <h2>
+                C# / .NET &nbsp;|&nbsp; SQL Server &nbsp;|&nbsp; Azure
+            </h2>
+
+            <p class="hero-description">
+                Backend Developer with 2.5+ years of experience building
+                backend systems, REST APIs, database-driven applications
+                and cloud-based services using C#/.NET, SQL Server and Azure.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects"
+                   class="btn btn-primary">
+                    View Projects
+                </a>
+
+                <a href="#contact"
+                   class="btn btn-secondary">
+                    Contact Me
+                </a>
+
+            </div>
+
+
+            <div class="social-links">
+
+                <a href="https://www.linkedin.com/in/prakhar-srivastava-036341237"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="LinkedIn">
+
+                    <i class="fa-brands fa-linkedin"></i>
+
+                </a>
+
+                <a href="https://github.com/prakhar0069"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="GitHub">
+
+                    <i class="fa-brands fa-github"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <div class="image-ring">
+
+                <img src="./images/MyPic.jpg"
+                     alt="Prakhar Srivastava">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<main>
+
+
+<!-- =========================================================
+     ABOUT
+========================================================= -->
+
+<section id="about"
+         class="section">
+
+    <div class="section-heading">
+
+        <span class="section-number">
+            01
+        </span>
+
+        <h2>
+            About Me
+        </h2>
+
+    </div>
+
+
+    <div class="about-container">
+
+        <div class="about-text">
+
+            <p>
+                I am a Backend Developer focused on building reliable,
+                maintainable and performance-oriented backend systems using
+                C#/.NET, SQL Server and Microsoft Azure.
+            </p>
+
+            <p>
+                My work spans application development, REST APIs,
+                database development, asynchronous processing,
+                cloud services, CI/CD automation and production
+                system optimization.
+            </p>
+
+            <p>
+                I work across both the application and database layers,
+                with strong hands-on experience in SQL Server stored
+                procedures, database-driven workflows, background
+                processing and cloud-based backend services.
+            </p>
+
+        </div>
+
+
+        <div class="about-highlights">
+
+            <div class="highlight-card">
+
+                <i class="fa-solid fa-code"></i>
+
+                <h3>
+                    Backend Development
+                </h3>
+
+                <p>
+                    C#, .NET, ASP.NET Core and REST APIs
+                </p>
+
+            </div>
+
+
+            <div class="highlight-card">
+
+                <i class="fa-solid fa-database"></i>
+
+                <h3>
+                    Database Development
+                </h3>
+
+                <p>
+                    SQL Server, T-SQL, stored procedures and optimization
+                </p>
+
+            </div>
+
+
+            <div class="highlight-card">
+
+                <i class="fa-brands fa-microsoft"></i>
+
+                <h3>
+                    Azure Development
+                </h3>
+
+                <p>
+                    Functions, Container Apps, Service Bus and DevOps
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     EXPERIENCE
+========================================================= -->
+
+<section id="experience"
+         class="section section-alt">
+
+    <div class="section-heading">
+
+        <span class="section-number">
+            02
+        </span>
+
+        <h2>
+            Experience
+        </h2>
+
+    </div>
+
+
+    <div class="experience-container">
+
+        <div class="experience-header">
+
+            <div>
+
+                <h3>
+                    Junior Backend Developer
+                </h3>
+
+                <h4>
+                    Adeption India
+                </h4>
+
+            </div>
+
+            <span class="experience-date">
+                2024 – Present
+            </span>
+
+        </div>
+
+
+        <p class="experience-intro">
+            Working on a cloud-based leadership learning and coaching
+            product that enables organizations to deliver leadership
+            development and coaching programs.
+        </p>
+
+
+        <div class="experience-points">
+
+            <div class="experience-point">
+
+                <i class="fa-solid fa-circle-check"></i>
+
+                <p>
+                    Developed and maintained backend services and
+                    SQL Server solutions using C#/.NET, Azure and
+                    database-driven workflows.
+                </p>
+
+            </div>
+
+
+            <div class="experience-point">
+
+                <i class="fa-solid fa-circle-check"></i>
+
+                <p>
+                    Built an asynchronous backend processing and
+                    data archival platform using SQL Server Change
+                    Tracking, Azure Service Bus and Azure Container Apps.
+                </p>
+
+            </div>
+
+
+            <div class="experience-point">
+
+                <i class="fa-solid fa-circle-check"></i>
+
+                <p>
+                    Designed background processing flows that moved
+                    non-critical database operations away from
+                    synchronous API execution, reducing UI-to-API
+                    calls by up to 50% and improving API processing
+                    speed by up to 60%.
+                </p>
+
+            </div>
+
+
+            <div class="experience-point">
+
+                <i class="fa-solid fa-circle-check"></i>
+
+                <p>
+                    Developed SQL Server stored procedures, functions,
+                    triggers and views, and worked on indexing,
+                    execution-plan analysis and database performance
+                    optimization.
+                </p>
+
+            </div>
+
+
+            <div class="experience-point">
+
+                <i class="fa-solid fa-circle-check"></i>
+
+                <p>
+                    Worked on Azure DevOps CI/CD automation including
+                    database disaster-recovery failover/failback
+                    pipelines and application-secret expiration
+                    monitoring.
+                </p>
+
+            </div>
+
+
+            <div class="experience-point">
+
+                <i class="fa-solid fa-circle-check"></i>
+
+                <p>
+                    Created SQL Server External Data Sources and
+                    External Tables with read-only access to the
+                    Archive DB and automated schema synchronization
+                    through CI/CD.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- AWARD -->
+
+        <div class="award-card">
+
+            <div class="award-icon">
+                <i class="fa-solid fa-award"></i>
+            </div>
+
+            <div>
+
+                <h3>
+                    Emerging Star Award – 2024
+                </h3>
+
+                <p>
+                    Recognized for outstanding performance and
+                    valuable contributions to the team.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     PROJECTS
+========================================================= -->
+
+<section id="projects"
+         class="section">
+
+    <div class="section-heading">
+
+        <span class="section-number">
+            03
+        </span>
+
+        <h2>
+            Professional Projects
+        </h2>
+
+    </div>
+
+
+    <div class="projects-grid">
+
+
+        <!-- PROJECT 1 -->
+
+        <article class="project-card featured-project">
+
+            <div class="project-number">
+                01
+            </div>
+
+            <div class="project-content">
+
+                <p class="project-label">
+                    BACKEND / AZURE / SQL SERVER
+                </p>
+
+                <h3>
+                    Asynchronous Backend Processing & Data Archival Platform
+                </h3>
+
+                <p>
+                    Designed and developed an asynchronous processing
+                    architecture that moves non-critical database work
+                    from synchronous API execution into background
+                    processing.
+                </p>
+
+                <p>
+                    The system uses SQL Server Change Tracking,
+                    Azure Service Bus and Azure Container Apps to
+                    identify changes, publish work items and process
+                    database operations asynchronously.
+                </p>
+
+                <div class="tech-list">
+
+                    <span>C#</span>
+                    <span>.NET</span>
+                    <span>SQL Server</span>
+                    <span>Change Tracking</span>
+                    <span>Azure Service Bus</span>
+                    <span>Azure Container Apps</span>
+
                 </div>
 
-                
-                 
+            </div>
 
-                 <div class="timeline-divider">
-                        <div class="timeline-traveller">
-                              <i class="fas fa-plane"></i>
-                       </div>
-                 </div>
-           </div>			
-		</section>
+        </article>
 
-<!-- ---------------------------------------------------Education Section --------------------------------------------------------- -->
-		<section class= "educations" id="education">
-            <h1 class="section-heading mb75px">
-                <span><img src="https://cdn-icons-png.flaticon.com/512/2936/2936719.png"></span>
-                <span> Education </span>
-            </h1>
-            <div class="card-deck">
-                <div class="card text-white bg-danger mb-3">
-                  <img src="https://www.cdac.in/index.aspx?id=img_Mumbai-cl" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-tit">Centre for Development of Advanced Computing (C-DAC)</h5>
-                    <p class="card-text">Post Graduate Diploma In Advanced Computing (PGDAC)</p>
-                    <p class="card-text">CDAC Mumbai</p>
-                    <p class="card-text"><b>Passout - 2023 </b></p>
-                    <p class="card-text"><b>Marks - 76.88 % </b></p>
-                  </div>
+
+        <!-- PROJECT 2 -->
+
+        <article class="project-card">
+
+            <div class="project-number">
+                02
+            </div>
+
+            <div class="project-content">
+
+                <p class="project-label">
+                    CLOUD MODERNIZATION
+                </p>
+
+                <h3>
+                    Azure Functions to Container Apps Migration
+                </h3>
+
+                <p>
+                    Worked on migrating Azure Function Apps to
+                    ASP.NET Core 8 applications running in Azure
+                    Container Apps while preserving existing API
+                    contracts, routing and background-processing
+                    behavior.
+                </p>
+
+                <div class="tech-list">
+
+                    <span>ASP.NET Core 8</span>
+                    <span>Azure Container Apps</span>
+                    <span>Docker</span>
+                    <span>Azure API Management</span>
+                    <span>Azure Key Vault</span>
+
                 </div>
-                <div class="card text-white bg-danger mb-3">
-                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQziD5WRg3SWY7T3cY2pBJdY4HQpB9AUNpo-Q&usqp=CAU" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-tit">Bachelor Of Technology</h5>
-                    <p class="card-text">(Civil Engineering)</p>
-                    <h5 class="card-tit">United College Of Engineering & Research, Praygraj</h5>
-                    <p class="card-text">Dr. APJ Abdul Kalam Technical University, Lucknow</p>
-                    <p class="card-text"><b>Passout - 2018 </b></p>
-                    <p class="card-text"><b>Grade - A </b></p>
-                  </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 3 -->
+
+        <article class="project-card">
+
+            <div class="project-number">
+                03
+            </div>
+
+            <div class="project-content">
+
+                <p class="project-label">
+                    DATABASE / DEVOPS
+                </p>
+
+                <h3>
+                    Database Disaster Recovery Automation
+                </h3>
+
+                <p>
+                    Developed Azure DevOps pipelines for database
+                    disaster-recovery failover and failback operations,
+                    including database restoration, migration,
+                    renaming and networking configuration.
+                </p>
+
+                <div class="tech-list">
+
+                    <span>SQL Server</span>
+                    <span>Azure DevOps</span>
+                    <span>CI/CD</span>
+                    <span>Azure</span>
+
                 </div>
-                <div class="card text-white bg-warning mb-3">
-                  <img src="https://img.freepik.com/premium-vector/science-word-concept_23-2148534115.jpg?size=626&ext=jpg&ga=GA1.1.81996415.1679841977&semt=sph" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-tit">12th </h5>
-                    <h5 class="card-text">Daffodils public school, Mirzapur</h5>
-                    <p class="card-text"><b>Board :</b> CBSE</p>
-                    <p class="card-text"><b>Passout - 2014 </b></p>
-                    <p class="card-text"><b>Grade - A </b></p>
-                  </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 4 -->
+
+        <article class="project-card">
+
+            <div class="project-number">
+                04
+            </div>
+
+            <div class="project-content">
+
+                <p class="project-label">
+                    API DEVELOPMENT
+                </p>
+
+                <h3>
+                    Backend APIs & Scheduled Services
+                </h3>
+
+                <p>
+                    Developed REST APIs and scheduled backend services
+                    backed by SQL Server stored procedures, including
+                    administrative APIs and consolidated scheduled
+                    email-processing services.
+                </p>
+
+                <div class="tech-list">
+
+                    <span>C#</span>
+                    <span>.NET</span>
+                    <span>REST APIs</span>
+                    <span>SQL Server</span>
+                    <span>Azure Functions</span>
+
                 </div>
-                <div class="card text-white badge-info mb-3">
-                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOPif8V9SEktfeqgVb5Hf_o_dbPdwAl1sX5g&usqp=CAU" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-tit">10th</h5>
-                    <h5 class="card-text">Daffodils Public School, Mirzapur</h5>
-                    <p class="card-text"><b>Board :</b> CBSE</p>
-                    <p class="card-text"><b>Passout - 2011 </b></p>
-                    <p class="card-text"><b>Marks - 9 CGPA </b></p>
-                  </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     EARLIER PROJECTS
+========================================================= -->
+
+<section id="earlier-projects"
+         class="section section-alt">
+
+    <div class="section-heading">
+
+        <span class="section-number">
+            04
+        </span>
+
+        <h2>
+            Earlier Projects
+        </h2>
+
+    </div>
+
+
+    <div class="earlier-projects-grid">
+
+
+        <article class="earlier-card">
+
+            <div class="earlier-icon">
+                <i class="fa-solid fa-user-doctor"></i>
+            </div>
+
+            <h3>
+                MediCare
+            </h3>
+
+            <p>
+                Online doctor appointment management application.
+            </p>
+
+            <div class="tech-list">
+
+                <span>Spring Boot</span>
+                <span>React.js</span>
+                <span>MySQL</span>
+
+            </div>
+
+            <a href="https://github.com/prakhar0069/Medicare"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                View on GitHub
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+            </a>
+
+        </article>
+
+
+        <article class="earlier-card">
+
+            <div class="earlier-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+
+            <h3>
+                ElektroKart
+            </h3>
+
+            <p>
+                E-commerce application for purchasing electronic products.
+            </p>
+
+            <div class="tech-list">
+
+                <span>Spring Boot</span>
+                <span>React.js</span>
+                <span>MySQL</span>
+                <span>Docker</span>
+
+            </div>
+
+            <a href="https://github.com/prakhar0069/ElectroKart"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                View on GitHub
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+            </a>
+
+        </article>
+
+
+        <article class="earlier-card">
+
+            <div class="earlier-icon">
+                <i class="fa-solid fa-book"></i>
+            </div>
+
+            <h3>
+                BulkyBookWeb
+            </h3>
+
+            <p>
+                Book store management application developed with
+                ASP.NET MVC and Entity Framework Core.
+            </p>
+
+            <div class="tech-list">
+
+                <span>C#</span>
+                <span>ASP.NET Core</span>
+                <span>Azure</span>
+                <span>Entity Framework Core</span>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     SKILLS
+========================================================= -->
+
+<section id="skills"
+         class="section">
+
+    <div class="section-heading">
+
+        <span class="section-number">
+            05
+        </span>
+
+        <h2>
+            Technical Skills
+        </h2>
+
+    </div>
+
+
+    <div class="skills-container">
+
+
+        <div class="skill-group">
+
+            <div class="skill-group-icon">
+                <i class="fa-solid fa-code"></i>
+            </div>
+
+            <div>
+
+                <h3>
+                    Backend Development
+                </h3>
+
+                <div class="skill-tags">
+
+                    <span>C#</span>
+                    <span>.NET</span>
+                    <span>.NET 8</span>
+                    <span>ASP.NET Core</span>
+                    <span>REST APIs</span>
+                    <span>Asynchronous Processing</span>
+
                 </div>
-            </div>			
-		</section>
-<!-- ---------------------------------------------------Certificates Section --------------------------------------------- -->
-		<section id="certificates">
-            <h1 class="section-heading mb75px">
-                <span>
-                    <i class="fas fa-th-list"></i>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-group">
+
+            <div class="skill-group-icon">
+                <i class="fa-solid fa-database"></i>
+            </div>
+
+            <div>
+
+                <h3>
+                    Database
+                </h3>
+
+                <div class="skill-tags">
+
+                    <span>SQL Server</span>
+                    <span>T-SQL</span>
+                    <span>Stored Procedures</span>
+                    <span>Functions</span>
+                    <span>Triggers</span>
+                    <span>Indexes</span>
+                    <span>Execution Plans</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-group">
+
+            <div class="skill-group-icon">
+                <i class="fa-brands fa-microsoft"></i>
+            </div>
+
+            <div>
+
+                <h3>
+                    Microsoft Azure
+                </h3>
+
+                <div class="skill-tags">
+
+                    <span>Azure Functions</span>
+                    <span>Azure Container Apps</span>
+                    <span>Azure Service Bus</span>
+                    <span>Azure API Management</span>
+                    <span>Azure Data Factory</span>
+                    <span>Azure Key Vault</span>
+                    <span>Redis</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-group">
+
+            <div class="skill-group-icon">
+                <i class="fa-solid fa-gears"></i>
+            </div>
+
+            <div>
+
+                <h3>
+                    DevOps & Tools
+                </h3>
+
+                <div class="skill-tags">
+
+                    <span>Azure DevOps</span>
+                    <span>CI/CD</span>
+                    <span>Docker</span>
+                    <span>Git</span>
+                    <span>Postman</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     EDUCATION
+========================================================= -->
+
+<section id="education"
+         class="section section-alt">
+
+    <div class="section-heading">
+
+        <span class="section-number">
+            06
+        </span>
+
+        <h2>
+            Education & Certification
+        </h2>
+
+    </div>
+
+
+    <div class="education-container">
+
+
+        <div class="education-card">
+
+            <div class="education-icon">
+                <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+
+            <div>
+
+                <span class="education-year">
+                    2023
                 </span>
-                <span> Certificates </span>
-            </h1>        
-            <div class="card-deck">
-                <div class="card card-details">
-                    <img src="./images/master_react_course_certificate.jpg" class="card-img-top" alt="...">
-                    <div class="card-cf-details">
-                        <p>certificate of completion in ReactJS</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="./images/master_springboot_course_certificate.jpg" class="card-img-top" alt="...">
-                    <div class="card-cf-details">
-                        <p>certificate of completion in Master Springboot with Real Time Project</p>
-                    </div>
-                </div>
+
+                <h3>
+                    Post Graduate Diploma in Advanced Computing
+                </h3>
+
+                <h4>
+                    Centre for Development of Advanced Computing (C-DAC), Mumbai
+                </h4>
+
+                <p>
+                    PG-DAC
+                </p>
+
             </div>
-        </section>
-<!-- ---------------------------------------------------Details Section --------------------------------------------- -->
-		<section id="details">
-            <h1 class="section-heading mb75px">
-                <span ><img src="https://cdn-icons-png.flaticon.com/128/10190/10190419.png" class="detl-img"></span>
-                <span> Details </span>
-            </h1>  
-            <div class="details">  
-                <div id="carouselExampleIndicators" class="carousel slide details-slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                    <div class="carousel-item active third-details">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Interests & Hobbies</h2>
-                                <h5>Singing</h5>
-                                <h5>Dancing</h5>
-                                <h5>Poetry</h5>
-                                <h5>Chess</h5>
-                                <h5>Reading</h5>
-                        </div>
-                    </div>
-                    <div class="carousel-item sec-details">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>My Social Life</h2>
-                            <p>I enjoy connecting with new people and also I am open to interesting new technologies ,
-                                I wanna skill up myself as much as I can, that's why I joined CDAC. If we talk about my free time,
-                                I spend my free time in fulfilling my hobbies like: Singing, Dancing, Poetry, Watching movies, Travelling and Reading. For me , work life balance is
-                                very important, after the work I wanna spend my most of the time with my family only.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="carousel-item first-details">
-                        <div class="carousel-caption language d-none d-md-block">
-                            <h1>Language</h1>
-                            <h5>English</h5>
-                            <h5>Hindi</h5>
-                        </div>
-                    </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                    </a>
-                </div> 
-            </div>   
-                   
-                         
-        </section>
+
+        </div>
 
 
-<!-- -------------------------------------------------- Contact Section ------------------------------------------------- -->
-		<section id= "contact">
-            <h1 class="section-heading mb75px">
-                <span ><img src="https://cdn-icons-png.flaticon.com/128/10308/10308181.png" class="detl-img"></span>
-                <span> Contacts </span>
-            </h1>
-            <div class="contact-details">
-                <div class="address">
-                    <h4>
-                        <i class="fa-solid fa-phone"></i>
-                        Contact No:
-                    </h4>
-                    <p>8545901113</p>
-                    <h4>
-                        <i class="fa-solid fa-map-marker-alt"></i>
-                        Address:
-                    </h4>
-                    <p>Near Naman General Store, Dehat Kotwali Road, Ramaipatti </p>
-                    <p>Mirzapur, Uttar Pradesh, Pin Code - 231001 </p>
-                </div>
-                <div>
-                    <h4>
-                        <a href="https://www.linkedin.com/in/prakhar-srivastava-036341237" target="_blank">
-                            <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000015_1549330433_linkedin-logo.png" alt="" />
-                            LinkedIn
-                        </a>
-                    </h4>
-                    <h4>
-                        <a href="https://github.com/prakhar0069" target="_blank" class="git-img">
-                            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" />
-                            Github
-                        </a>
-                    </h4>
-                </div>
+        <div class="education-card">
+
+            <div class="education-icon">
+                <i class="fa-solid fa-graduation-cap"></i>
             </div>
-		</section>
-        <section id="extraa"></section>
 
-	</main>
+            <div>
 
-    <script type="text/javascript" src="resume.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+                <span class="education-year">
+                    2018
+                </span>
+
+                <h3>
+                    Bachelor of Engineering – Civil Engineering
+                </h3>
+
+                <h4>
+                    United College of Engineering & Research, Prayagraj
+                </h4>
+
+                <p>
+                    Dr. A.P.J. Abdul Kalam Technical University, Lucknow
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="education-card certification-card">
+
+            <div class="education-icon">
+                <i class="fa-brands fa-microsoft"></i>
+            </div>
+
+            <div>
+
+                <span class="education-year">
+                    Microsoft Certification
+                </span>
+
+                <h3>
+                    Microsoft Certified: Azure Fundamentals
+                </h3>
+
+                <h4>
+                    AZ-900
+                </h4>
+
+                <p>
+                    Fundamentals of Microsoft Azure cloud services,
+                    architecture and core concepts.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     CONTACT
+========================================================= -->
+
+<section id="contact"
+         class="section contact-section">
+
+    <div class="section-heading">
+
+        <span class="section-number">
+            07
+        </span>
+
+        <h2>
+            Let's Connect
+        </h2>
+
+    </div>
+
+
+    <div class="contact-container">
+
+        <div class="contact-intro">
+
+            <h3>
+                Interested in working together?
+            </h3>
+
+            <p>
+                I am open to Backend Developer and .NET opportunities
+                where I can work on backend systems, SQL Server and
+                cloud-based applications.
+            </p>
+
+        </div>
+
+
+        <div class="contact-links">
+
+            <a href="https://www.linkedin.com/in/prakhar-srivastava-036341237"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="contact-link">
+
+                <span class="contact-icon">
+                    <i class="fa-brands fa-linkedin"></i>
+                </span>
+
+                <span>
+                    LinkedIn
+                </span>
+
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+            </a>
+
+
+            <a href="https://github.com/prakhar0069"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="contact-link">
+
+                <span class="contact-icon">
+                    <i class="fa-brands fa-github"></i>
+                </span>
+
+                <span>
+                    GitHub
+                </span>
+
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer class="footer">
+
+    <p>
+        © 2026 Prakhar Srivastava
+    </p>
+
+    <p>
+        Backend Developer · C#/.NET · SQL Server · Azure
+    </p>
+
+</footer>
+
+
+<script src="resume.js"></script>
 
 </body>
 </html>
