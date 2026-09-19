@@ -1,75 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
 
+    <script src="https://kit.fontawesome.com/b3348ae33f.js"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
     <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+        content="width=device-width, initial-scale=1, minimum-scale=1">
 
-    <meta name="description"
-          content="Prakhar Srivastava - Backend Developer specializing in C#, .NET, SQL Server and Azure.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
 
-    <meta name="keywords"
-          content="Backend Developer, C#, .NET, ASP.NET Core, SQL Server, Azure, Azure Functions, Azure Container Apps">
+    <link rel="shortcut icon"
+        type="image/x-icon"
+        href="https://cdn-icons-png.flaticon.com/512/9322/9322105.png">
 
-    <meta name="author"
-          content="Prakhar Srivastava">
+    <link rel="stylesheet"
+        type="text/css"
+        href="resume.css">
+
+    <link rel="stylesheet"
+        type="text/css"
+        href="responsive-resume.css">
 
     <title>Prakhar Srivastava | Backend Developer</title>
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/b3348ae33f.js"
-            crossorigin="anonymous"></script>
-
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-          rel="stylesheet">
-
-    <!-- CSS -->
-    <link rel="stylesheet"
-          href="resume.css">
-
-    <link rel="stylesheet"
-          href="responsive-resume.css">
 </head>
+
 
 <body>
 
-<!-- =========================================================
-     NAVIGATION
-========================================================= -->
 
-<header class="header" id="home">
+<!-- =====================================================
+     HEADER
+===================================================== -->
 
-    <nav class="navbar">
+<header id="body-header">
 
-        <a href="#home" class="logo">
-            Prakhar.
-        </a>
+    <nav>
 
-        <button class="menu-toggle"
-                id="menu-toggle"
-                aria-label="Open navigation menu">
-
-            <i class="fa-solid fa-bars"></i>
-
-        </button>
-
-        <ul class="nav-links" id="nav-links">
+        <ul class="horizental-list text-center nav-menu">
 
             <li>
                 <a href="#about">About</a>
-            </li>
-
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-
-            <li>
-                <a href="#projects">Projects</a>
             </li>
 
             <li>
@@ -77,7 +56,19 @@
             </li>
 
             <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+
+            <li>
                 <a href="#education">Education</a>
+            </li>
+
+            <li>
+                <a href="#certificates">Certification</a>
             </li>
 
             <li>
@@ -89,82 +80,53 @@
     </nav>
 
 
-    <!-- =====================================================
-         HERO
-    ====================================================== -->
+    <div class="text-center">
 
-    <div class="hero">
+        <h1 id="my-name">
+            Prakhar Srivastava
+        </h1>
 
-        <div class="hero-content">
+        <h2 id="hero-title">
+            Backend Developer
+        </h2>
 
-            <p class="hero-label">
-                BACKEND DEVELOPER
-            </p>
+        <p id="hero-stack">
+            C# / .NET &nbsp; | &nbsp; SQL Server &nbsp; | &nbsp; Azure
+        </p>
 
-            <h1>
-                Prakhar Srivastava
-            </h1>
-
-            <h2>
-                C# / .NET &nbsp;|&nbsp; SQL Server &nbsp;|&nbsp; Azure
-            </h2>
-
-            <p class="hero-description">
-                Backend Developer with 2.5+ years of experience building
-                backend systems, REST APIs, database-driven applications
-                and cloud-based services using C#/.NET, SQL Server and Azure.
-            </p>
-
-            <div class="hero-buttons">
-
-                <a href="#projects"
-                   class="btn btn-primary">
-                    View Projects
-                </a>
-
-                <a href="#contact"
-                   class="btn btn-secondary">
-                    Contact Me
-                </a>
-
-            </div>
+    </div>
 
 
-            <div class="social-links">
+    <div>
 
-                <a href="https://www.linkedin.com/in/prakhar-srivastava-036341237"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   aria-label="LinkedIn">
+        <ul class="horizental-list text-center social-icons">
+
+            <li>
+
+                <a href="https://www.linkedin.com/in/prakhar-srivastava-036341237/"
+                    target="_blank"
+                    rel="noopener noreferrer">
 
                     <i class="fa-brands fa-linkedin"></i>
 
                 </a>
 
+            </li>
+
+
+            <li>
+
                 <a href="https://github.com/prakhar0069"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   aria-label="GitHub">
+                    target="_blank"
+                    rel="noopener noreferrer">
 
                     <i class="fa-brands fa-github"></i>
 
                 </a>
 
-            </div>
+            </li>
 
-        </div>
-
-
-        <div class="hero-image">
-
-            <div class="image-ring">
-
-                <img src="./images/MyPic.jpg"
-                     alt="Prakhar Srivastava">
-
-            </div>
-
-        </div>
+        </ul>
 
     </div>
 
@@ -174,96 +136,270 @@
 <main>
 
 
-<!-- =========================================================
+<!-- =====================================================
      ABOUT
-========================================================= -->
+===================================================== -->
 
-<section id="about"
-         class="section">
+<section id="about">
 
-    <div class="section-heading">
+    <div id="my-image">
 
-        <span class="section-number">
-            01
-        </span>
-
-        <h2>
-            About Me
-        </h2>
+        <img src="./images/MyPic.jpg"
+            alt="Prakhar Srivastava">
 
     </div>
 
 
-    <div class="about-container">
+    <h3>
 
-        <div class="about-text">
+        <small class="text-muted">
 
-            <p>
-                I am a Backend Developer focused on building reliable,
-                maintainable and performance-oriented backend systems using
-                C#/.NET, SQL Server and Microsoft Azure.
-            </p>
+            <b>
+                Backend Developer | C#/.NET | SQL Server | Azure
+            </b>
 
-            <p>
-                My work spans application development, REST APIs,
-                database development, asynchronous processing,
-                cloud services, CI/CD automation and production
-                system optimization.
-            </p>
+        </small>
 
-            <p>
-                I work across both the application and database layers,
-                with strong hands-on experience in SQL Server stored
-                procedures, database-driven workflows, background
-                processing and cloud-based backend services.
-            </p>
+    </h3>
+
+
+    <p class="text-muted">
+
+        Backend Developer with 2.5+ years of experience building
+        backend systems, REST APIs, database-driven applications
+        and cloud-based services using C#/.NET, SQL Server and
+        Microsoft Azure.
+
+    </p>
+
+
+    <p class="text-muted about-second">
+
+        Experienced in backend application development, database
+        development, asynchronous processing, CI/CD automation,
+        cloud services and production system optimization.
+        Strong hands-on experience with SQL Server, including
+        stored procedures, database-driven workflows and
+        performance-focused backend solutions.
+
+    </p>
+
+</section>
+
+
+
+<!-- =====================================================
+     SKILLS
+===================================================== -->
+
+<section id="skills">
+
+    <h1 class="section-heading mb75px">
+
+        <span>
+            <i class="fa-solid fa-chalkboard-user"></i>
+        </span>
+
+        <span>
+            SKILLS
+        </span>
+
+    </h1>
+
+
+    <div id="skills-container"
+        class="skill-display">
+
+
+        <div class="skill-progress">
+
+            <div class="ninty-percent mb-blue">
+
+                <div class="skill-name">
+                    <span>C#</span>
+                </div>
+
+            </div>
 
         </div>
 
 
-        <div class="about-highlights">
+        <div class="skill-progress">
 
-            <div class="highlight-card">
+            <div class="ninty-percent mb-cyan">
 
-                <i class="fa-solid fa-code"></i>
-
-                <h3>
-                    Backend Development
-                </h3>
-
-                <p>
-                    C#, .NET, ASP.NET Core and REST APIs
-                </p>
+                <div class="skill-name">
+                    <span>.NET / ASP.NET Core</span>
+                </div>
 
             </div>
 
+        </div>
 
-            <div class="highlight-card">
 
-                <i class="fa-solid fa-database"></i>
+        <div class="skill-progress">
 
-                <h3>
-                    Database Development
-                </h3>
+            <div class="ninty-percent mb-orange">
 
-                <p>
-                    SQL Server, T-SQL, stored procedures and optimization
-                </p>
+                <div class="skill-name">
+                    <span>SQL Server</span>
+                </div>
 
             </div>
 
+        </div>
 
-            <div class="highlight-card">
 
-                <i class="fa-brands fa-microsoft"></i>
+        <div class="skill-progress">
 
-                <h3>
-                    Azure Development
-                </h3>
+            <div class="ninty-percent mb-gn">
 
-                <p>
-                    Functions, Container Apps, Service Bus and DevOps
-                </p>
+                <div class="skill-name">
+                    <span>T-SQL</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-progress">
+
+            <div class="ninty-percent mb-light-purple">
+
+                <div class="skill-name">
+                    <span>Azure Functions</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-progress">
+
+            <div class="ninty-percent mb-blue">
+
+                <div class="skill-name">
+                    <span>Azure Container Apps</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-progress">
+
+            <div class="ninty-percent mb-teal">
+
+                <div class="skill-name">
+                    <span>Azure Service Bus</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-progress">
+
+            <div class="ninty-percent mb-pink">
+
+                <div class="skill-name">
+                    <span>Azure DevOps</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-progress">
+
+            <div class="ninty-percent mb-brown">
+
+                <div class="skill-name">
+                    <span>CI/CD</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-progress">
+
+            <div class="ninty-percent mb-red">
+
+                <div class="skill-name">
+                    <span>Docker</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-progress">
+
+            <div class="ninty-percent mb-og">
+
+                <div class="skill-name">
+                    <span>Azure Data Factory</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-progress">
+
+            <div class="ninty-percent mb-cyan">
+
+                <div class="skill-name">
+                    <span>Redis</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-progress">
+
+            <div class="ninty-percent mb-orange">
+
+                <div class="skill-name">
+                    <span>REST APIs</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-progress">
+
+            <div class="ninty-percent mb-ogn">
+
+                <div class="skill-name">
+                    <span>Git</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-progress">
+
+            <div class="ninty-percent mb-gn">
+
+                <div class="skill-name">
+                    <span>Postman</span>
+                </div>
 
             </div>
 
@@ -274,139 +410,465 @@
 </section>
 
 
-<!-- =========================================================
-     EXPERIENCE
-========================================================= -->
 
-<section id="experience"
-         class="section section-alt">
+<!-- =====================================================
+     PROJECTS
+===================================================== -->
 
-    <div class="section-heading">
+<section id="projects">
 
-        <span class="section-number">
-            02
+    <h1 class="section-heading mb75px">
+
+        <span>
+            <i class="fas fa-briefcase"></i>
         </span>
 
-        <h2>
-            Experience
-        </h2>
+        <span>
+            Professional Projects
+        </span>
 
-    </div>
+    </h1>
 
 
-    <div class="experience-container">
+    <div class="timeline">
 
-        <div class="experience-header">
 
-            <div>
+        <!-- PROJECT 1 -->
 
-                <h3>
-                    Junior Backend Developer
-                </h3>
+        <div class="timeline-box">
 
-                <h4>
-                    Adeption India
-                </h4>
+            <div class="card">
+
+                <div class="professional-project-image">
+                    <i class="fa-solid fa-arrows-spin"></i>
+                </div>
+
+                <div class="card-body">
+
+                    <h2 class="card-title">
+                        Asynchronous Backend Processing & Data Archival Platform
+                    </h2>
+
+                    <p class="card-text">
+
+                        Designed and developed an asynchronous backend
+                        processing architecture using C#/.NET, SQL Server
+                        Change Tracking, Azure Service Bus and Azure
+                        Container Apps.
+
+                    </p>
+
+                    <p class="card-text">
+
+                        Moved non-critical database operations away from
+                        synchronous API execution, reducing UI-to-API calls
+                        by up to 50% and improving API processing speed by
+                        up to 60%.
+
+                    </p>
+
+                    <h6 class="card-subtitle mb-2 text-muted">
+
+                        <b>Tech used:</b>
+
+                        C#, .NET, SQL Server, Change Tracking,
+                        Azure Service Bus, Azure Container Apps
+
+                    </h6>
+
+                </div>
 
             </div>
-
-            <span class="experience-date">
-                2024 – Present
-            </span>
 
         </div>
 
 
-        <p class="experience-intro">
-            Working on a cloud-based leadership learning and coaching
-            product that enables organizations to deliver leadership
-            development and coaching programs.
-        </p>
 
+        <!-- PROJECT 2 -->
 
-        <div class="experience-points">
+        <div class="timeline-box">
 
-            <div class="experience-point">
+            <div class="card">
 
-                <i class="fa-solid fa-circle-check"></i>
+                <div class="professional-project-image">
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                </div>
 
-                <p>
-                    Developed and maintained backend services and
-                    SQL Server solutions using C#/.NET, Azure and
-                    database-driven workflows.
-                </p>
+                <div class="card-body">
 
-            </div>
+                    <h2 class="card-title">
+                        Azure Functions to Container Apps Migration
+                    </h2>
 
+                    <p class="card-text">
 
-            <div class="experience-point">
+                        Worked on migrating Azure Function Apps to
+                        ASP.NET Core 8 applications running on Azure
+                        Container Apps while preserving existing API
+                        contracts, routing and background-processing
+                        behavior.
 
-                <i class="fa-solid fa-circle-check"></i>
+                    </p>
 
-                <p>
-                    Built an asynchronous backend processing and
-                    data archival platform using SQL Server Change
-                    Tracking, Azure Service Bus and Azure Container Apps.
-                </p>
+                    <h6 class="card-subtitle mb-2 text-muted">
 
-            </div>
+                        <b>Tech used:</b>
 
+                        ASP.NET Core 8, Azure Container Apps, Docker,
+                        Azure API Management, Azure Key Vault, Redis
 
-            <div class="experience-point">
+                    </h6>
 
-                <i class="fa-solid fa-circle-check"></i>
-
-                <p>
-                    Designed background processing flows that moved
-                    non-critical database operations away from
-                    synchronous API execution, reducing UI-to-API
-                    calls by up to 50% and improving API processing
-                    speed by up to 60%.
-                </p>
+                </div>
 
             </div>
 
+        </div>
 
-            <div class="experience-point">
 
-                <i class="fa-solid fa-circle-check"></i>
 
-                <p>
-                    Developed SQL Server stored procedures, functions,
-                    triggers and views, and worked on indexing,
-                    execution-plan analysis and database performance
-                    optimization.
-                </p>
+        <!-- PROJECT 3 -->
+
+        <div class="timeline-box">
+
+            <div class="card">
+
+                <div class="professional-project-image">
+                    <i class="fa-solid fa-server"></i>
+                </div>
+
+                <div class="card-body">
+
+                    <h2 class="card-title">
+                        Database Disaster Recovery Automation
+                    </h2>
+
+                    <p class="card-text">
+
+                        Developed Azure DevOps pipelines for database
+                        disaster-recovery failover and failback operations,
+                        including database restoration, migration,
+                        renaming and networking configuration.
+
+                    </p>
+
+                    <h6 class="card-subtitle mb-2 text-muted">
+
+                        <b>Tech used:</b>
+
+                        SQL Server, Azure DevOps, CI/CD, Azure
+
+                    </h6>
+
+                </div>
 
             </div>
 
+        </div>
 
-            <div class="experience-point">
 
-                <i class="fa-solid fa-circle-check"></i>
 
-                <p>
-                    Worked on Azure DevOps CI/CD automation including
-                    database disaster-recovery failover/failback
-                    pipelines and application-secret expiration
-                    monitoring.
-                </p>
+        <!-- PROJECT 4 -->
+
+        <div class="timeline-box">
+
+            <div class="card">
+
+                <div class="professional-project-image">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+
+                <div class="card-body">
+
+                    <h2 class="card-title">
+                        Backend APIs & Scheduled Services
+                    </h2>
+
+                    <p class="card-text">
+
+                        Developed REST APIs and scheduled backend services
+                        using C#/.NET and SQL Server stored procedures,
+                        including administrative APIs and consolidated
+                        scheduled email-processing services.
+
+                    </p>
+
+                    <h6 class="card-subtitle mb-2 text-muted">
+
+                        <b>Tech used:</b>
+
+                        C#, .NET, REST APIs, SQL Server,
+                        Azure Functions
+
+                    </h6>
+
+                </div>
 
             </div>
 
+        </div>
 
-            <div class="experience-point">
 
-                <i class="fa-solid fa-circle-check"></i>
 
-                <p>
+        <div class="timeline-divider">
+
+            <div class="timeline-traveller">
+
+                <i class="fas fa-plane"></i>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     EARLIER PROJECTS
+===================================================== -->
+
+<section id="earlier-projects">
+
+    <h1 class="section-heading mb75px">
+
+        <span>
+            <i class="fas fa-history"></i>
+        </span>
+
+        <span>
+            Earlier Projects
+        </span>
+
+    </h1>
+
+
+    <div class="timeline">
+
+
+        <div class="timeline-box">
+
+            <div class="card">
+
+                <img
+                    src="https://www.meswadeoband.org/wp-content/uploads/2021/01/doctor.jpg"
+                    class="card-img-top"
+                    alt="MediCare">
+
+                <div class="card-body">
+
+                    <h2 class="card-title">
+                        MediCare
+                    </h2>
+
+                    <p class="card-text">
+                        Online Doctor Appointment System
+                    </p>
+
+                    <h6 class="card-subtitle mb-2 text-muted">
+
+                        <b>Tech used:</b>
+
+                        Spring Boot, React.js, MySQL,
+                        HTML, CSS, Bootstrap
+
+                    </h6>
+
+                    <a href="https://github.com/prakhar0069/Medicare"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="card-link">
+
+                        GitHub Link
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="timeline-box">
+
+            <div class="card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1468495244123-6c6c332eeece?auto=format&fit=crop&w=1921&q=80"
+                    class="card-img-top"
+                    alt="ElektroKart">
+
+                <div class="card-body">
+
+                    <h2 class="card-title">
+                        ElektroKart
+                    </h2>
+
+                    <p class="card-text">
+                        E-Commerce Platform for Electronic Products
+                    </p>
+
+                    <h6 class="card-subtitle mb-2 text-muted">
+
+                        <b>Tech used:</b>
+
+                        React.js, Spring Boot, MySQL,
+                        JPA, Docker, AWS, Swagger
+
+                    </h6>
+
+                    <a href="https://github.com/prakhar0069/ElectroKart"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="card-link">
+
+                        GitHub Link
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="timeline-box">
+
+            <div class="card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1599658880436-c61792e70672?auto=format&fit=crop&w=500&q=60"
+                    class="card-img-top"
+                    alt="BulkyBookWeb">
+
+                <div class="card-body">
+
+                    <h2 class="card-title">
+                        BulkyBookWeb
+                    </h2>
+
+                    <p class="card-text">
+                        Book Store Management Application
+                    </p>
+
+                    <h6 class="card-subtitle mb-2 text-muted">
+
+                        <b>Tech used:</b>
+
+                        C#, ASP.NET Core MVC, Azure,
+                        Razor Pages, Entity Framework Core
+
+                    </h6>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="timeline-divider">
+
+            <div class="timeline-traveller">
+
+                <i class="fas fa-plane"></i>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     EXPERIENCE
+===================================================== -->
+
+<section id="experience">
+
+    <h1 class="section-heading mb75px">
+
+        <span>
+            <i class="fas fa-building"></i>
+        </span>
+
+        <span>
+            Experience
+        </span>
+
+    </h1>
+
+
+    <div class="experience-container">
+
+
+        <div class="experience-company">
+
+            <h2>
+                Junior Backend Developer
+            </h2>
+
+            <h3>
+                Adeption India
+            </h3>
+
+            <p class="experience-date">
+                2024 – Present
+            </p>
+
+
+            <p>
+
+                Working on a cloud-based leadership learning and
+                coaching product that enables organizations to
+                deliver leadership development and coaching programs.
+
+            </p>
+
+
+            <ul>
+
+                <li>
+                    Developed and maintained backend services,
+                    REST APIs and SQL Server solutions using C#/.NET
+                    and Azure.
+                </li>
+
+                <li>
+                    Developed and maintained 150+ SQL Server stored
+                    procedures, functions, triggers and views, with
+                    indexing and execution-plan analysis for
+                    performance optimization.
+                </li>
+
+                <li>
                     Created SQL Server External Data Sources and
                     External Tables with read-only access to the
                     Archive DB and automated schema synchronization
                     through CI/CD.
-                </p>
+                </li>
 
-            </div>
+                <li>
+                    Built Azure DevOps database disaster-recovery
+                    failover and failback pipelines.
+                </li>
+
+                <li>
+                    Built CI/CD monitoring for Azure App Registration
+                    and Azure AD B2C client-secret expiration with
+                    automated email alerts.
+                </li>
+
+            </ul>
 
         </div>
 
@@ -415,11 +877,13 @@
 
         <div class="award-card">
 
-            <div class="award-icon">
+            <div class="award-image-placeholder">
+
                 <i class="fa-solid fa-award"></i>
+
             </div>
 
-            <div>
+            <div class="award-content">
 
                 <h3>
                     Emerging Star Award – 2024
@@ -439,509 +903,53 @@
 </section>
 
 
-<!-- =========================================================
-     PROJECTS
-========================================================= -->
 
-<section id="projects"
-         class="section">
-
-    <div class="section-heading">
-
-        <span class="section-number">
-            03
-        </span>
-
-        <h2>
-            Professional Projects
-        </h2>
-
-    </div>
-
-
-    <div class="projects-grid">
-
-
-        <!-- PROJECT 1 -->
-
-        <article class="project-card featured-project">
-
-            <div class="project-number">
-                01
-            </div>
-
-            <div class="project-content">
-
-                <p class="project-label">
-                    BACKEND / AZURE / SQL SERVER
-                </p>
-
-                <h3>
-                    Asynchronous Backend Processing & Data Archival Platform
-                </h3>
-
-                <p>
-                    Designed and developed an asynchronous processing
-                    architecture that moves non-critical database work
-                    from synchronous API execution into background
-                    processing.
-                </p>
-
-                <p>
-                    The system uses SQL Server Change Tracking,
-                    Azure Service Bus and Azure Container Apps to
-                    identify changes, publish work items and process
-                    database operations asynchronously.
-                </p>
-
-                <div class="tech-list">
-
-                    <span>C#</span>
-                    <span>.NET</span>
-                    <span>SQL Server</span>
-                    <span>Change Tracking</span>
-                    <span>Azure Service Bus</span>
-                    <span>Azure Container Apps</span>
-
-                </div>
-
-            </div>
-
-        </article>
-
-
-        <!-- PROJECT 2 -->
-
-        <article class="project-card">
-
-            <div class="project-number">
-                02
-            </div>
-
-            <div class="project-content">
-
-                <p class="project-label">
-                    CLOUD MODERNIZATION
-                </p>
-
-                <h3>
-                    Azure Functions to Container Apps Migration
-                </h3>
-
-                <p>
-                    Worked on migrating Azure Function Apps to
-                    ASP.NET Core 8 applications running in Azure
-                    Container Apps while preserving existing API
-                    contracts, routing and background-processing
-                    behavior.
-                </p>
-
-                <div class="tech-list">
-
-                    <span>ASP.NET Core 8</span>
-                    <span>Azure Container Apps</span>
-                    <span>Docker</span>
-                    <span>Azure API Management</span>
-                    <span>Azure Key Vault</span>
-
-                </div>
-
-            </div>
-
-        </article>
-
-
-        <!-- PROJECT 3 -->
-
-        <article class="project-card">
-
-            <div class="project-number">
-                03
-            </div>
-
-            <div class="project-content">
-
-                <p class="project-label">
-                    DATABASE / DEVOPS
-                </p>
-
-                <h3>
-                    Database Disaster Recovery Automation
-                </h3>
-
-                <p>
-                    Developed Azure DevOps pipelines for database
-                    disaster-recovery failover and failback operations,
-                    including database restoration, migration,
-                    renaming and networking configuration.
-                </p>
-
-                <div class="tech-list">
-
-                    <span>SQL Server</span>
-                    <span>Azure DevOps</span>
-                    <span>CI/CD</span>
-                    <span>Azure</span>
-
-                </div>
-
-            </div>
-
-        </article>
-
-
-        <!-- PROJECT 4 -->
-
-        <article class="project-card">
-
-            <div class="project-number">
-                04
-            </div>
-
-            <div class="project-content">
-
-                <p class="project-label">
-                    API DEVELOPMENT
-                </p>
-
-                <h3>
-                    Backend APIs & Scheduled Services
-                </h3>
-
-                <p>
-                    Developed REST APIs and scheduled backend services
-                    backed by SQL Server stored procedures, including
-                    administrative APIs and consolidated scheduled
-                    email-processing services.
-                </p>
-
-                <div class="tech-list">
-
-                    <span>C#</span>
-                    <span>.NET</span>
-                    <span>REST APIs</span>
-                    <span>SQL Server</span>
-                    <span>Azure Functions</span>
-
-                </div>
-
-            </div>
-
-        </article>
-
-    </div>
-
-</section>
-
-
-<!-- =========================================================
-     EARLIER PROJECTS
-========================================================= -->
-
-<section id="earlier-projects"
-         class="section section-alt">
-
-    <div class="section-heading">
-
-        <span class="section-number">
-            04
-        </span>
-
-        <h2>
-            Earlier Projects
-        </h2>
-
-    </div>
-
-
-    <div class="earlier-projects-grid">
-
-
-        <article class="earlier-card">
-
-            <div class="earlier-icon">
-                <i class="fa-solid fa-user-doctor"></i>
-            </div>
-
-            <h3>
-                MediCare
-            </h3>
-
-            <p>
-                Online doctor appointment management application.
-            </p>
-
-            <div class="tech-list">
-
-                <span>Spring Boot</span>
-                <span>React.js</span>
-                <span>MySQL</span>
-
-            </div>
-
-            <a href="https://github.com/prakhar0069/Medicare"
-               target="_blank"
-               rel="noopener noreferrer">
-
-                View on GitHub
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-
-            </a>
-
-        </article>
-
-
-        <article class="earlier-card">
-
-            <div class="earlier-icon">
-                <i class="fa-solid fa-cart-shopping"></i>
-            </div>
-
-            <h3>
-                ElektroKart
-            </h3>
-
-            <p>
-                E-commerce application for purchasing electronic products.
-            </p>
-
-            <div class="tech-list">
-
-                <span>Spring Boot</span>
-                <span>React.js</span>
-                <span>MySQL</span>
-                <span>Docker</span>
-
-            </div>
-
-            <a href="https://github.com/prakhar0069/ElectroKart"
-               target="_blank"
-               rel="noopener noreferrer">
-
-                View on GitHub
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-
-            </a>
-
-        </article>
-
-
-        <article class="earlier-card">
-
-            <div class="earlier-icon">
-                <i class="fa-solid fa-book"></i>
-            </div>
-
-            <h3>
-                BulkyBookWeb
-            </h3>
-
-            <p>
-                Book store management application developed with
-                ASP.NET MVC and Entity Framework Core.
-            </p>
-
-            <div class="tech-list">
-
-                <span>C#</span>
-                <span>ASP.NET Core</span>
-                <span>Azure</span>
-                <span>Entity Framework Core</span>
-
-            </div>
-
-        </article>
-
-    </div>
-
-</section>
-
-
-<!-- =========================================================
-     SKILLS
-========================================================= -->
-
-<section id="skills"
-         class="section">
-
-    <div class="section-heading">
-
-        <span class="section-number">
-            05
-        </span>
-
-        <h2>
-            Technical Skills
-        </h2>
-
-    </div>
-
-
-    <div class="skills-container">
-
-
-        <div class="skill-group">
-
-            <div class="skill-group-icon">
-                <i class="fa-solid fa-code"></i>
-            </div>
-
-            <div>
-
-                <h3>
-                    Backend Development
-                </h3>
-
-                <div class="skill-tags">
-
-                    <span>C#</span>
-                    <span>.NET</span>
-                    <span>.NET 8</span>
-                    <span>ASP.NET Core</span>
-                    <span>REST APIs</span>
-                    <span>Asynchronous Processing</span>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <div class="skill-group">
-
-            <div class="skill-group-icon">
-                <i class="fa-solid fa-database"></i>
-            </div>
-
-            <div>
-
-                <h3>
-                    Database
-                </h3>
-
-                <div class="skill-tags">
-
-                    <span>SQL Server</span>
-                    <span>T-SQL</span>
-                    <span>Stored Procedures</span>
-                    <span>Functions</span>
-                    <span>Triggers</span>
-                    <span>Indexes</span>
-                    <span>Execution Plans</span>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <div class="skill-group">
-
-            <div class="skill-group-icon">
-                <i class="fa-brands fa-microsoft"></i>
-            </div>
-
-            <div>
-
-                <h3>
-                    Microsoft Azure
-                </h3>
-
-                <div class="skill-tags">
-
-                    <span>Azure Functions</span>
-                    <span>Azure Container Apps</span>
-                    <span>Azure Service Bus</span>
-                    <span>Azure API Management</span>
-                    <span>Azure Data Factory</span>
-                    <span>Azure Key Vault</span>
-                    <span>Redis</span>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <div class="skill-group">
-
-            <div class="skill-group-icon">
-                <i class="fa-solid fa-gears"></i>
-            </div>
-
-            <div>
-
-                <h3>
-                    DevOps & Tools
-                </h3>
-
-                <div class="skill-tags">
-
-                    <span>Azure DevOps</span>
-                    <span>CI/CD</span>
-                    <span>Docker</span>
-                    <span>Git</span>
-                    <span>Postman</span>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================================================
+<!-- =====================================================
      EDUCATION
-========================================================= -->
+===================================================== -->
 
-<section id="education"
-         class="section section-alt">
+<section class="educations" id="education">
 
-    <div class="section-heading">
+    <h1 class="section-heading mb75px">
 
-        <span class="section-number">
-            06
+        <span>
+            <i class="fas fa-graduation-cap"></i>
         </span>
 
-        <h2>
-            Education & Certification
-        </h2>
+        <span>
+            Education
+        </span>
 
-    </div>
-
-
-    <div class="education-container">
+    </h1>
 
 
-        <div class="education-card">
+    <div class="card-deck">
 
-            <div class="education-icon">
-                <i class="fa-solid fa-graduation-cap"></i>
+
+        <div class="card text-white bg-danger mb-3">
+
+            <div class="education-icon-large">
+
+                <i class="fas fa-laptop-code"></i>
+
             </div>
 
-            <div>
+            <div class="card-body">
 
-                <span class="education-year">
-                    2023
-                </span>
+                <h5 class="card-tit">
+                    Centre for Development of Advanced Computing (C-DAC)
+                </h5>
 
-                <h3>
-                    Post Graduate Diploma in Advanced Computing
-                </h3>
+                <p class="card-text">
+                    Post Graduate Diploma in Advanced Computing (PG-DAC)
+                </p>
 
-                <h4>
-                    Centre for Development of Advanced Computing (C-DAC), Mumbai
-                </h4>
+                <p class="card-text">
+                    Mumbai
+                </p>
 
-                <p>
-                    PG-DAC
+                <p class="card-text">
+                    <b>Completed – 2023</b>
                 </p>
 
             </div>
@@ -949,58 +957,35 @@
         </div>
 
 
-        <div class="education-card">
 
-            <div class="education-icon">
-                <i class="fa-solid fa-graduation-cap"></i>
+        <div class="card text-white bg-danger mb-3">
+
+            <div class="education-icon-large">
+
+                <i class="fas fa-graduation-cap"></i>
+
             </div>
 
-            <div>
+            <div class="card-body">
 
-                <span class="education-year">
-                    2018
-                </span>
+                <h5 class="card-tit">
+                    Bachelor of Engineering
+                </h5>
 
-                <h3>
-                    Bachelor of Engineering – Civil Engineering
-                </h3>
+                <p class="card-text">
+                    Civil Engineering
+                </p>
 
-                <h4>
+                <h5 class="card-tit">
                     United College of Engineering & Research, Prayagraj
-                </h4>
+                </h5>
 
-                <p>
+                <p class="card-text">
                     Dr. A.P.J. Abdul Kalam Technical University, Lucknow
                 </p>
 
-            </div>
-
-        </div>
-
-
-        <div class="education-card certification-card">
-
-            <div class="education-icon">
-                <i class="fa-brands fa-microsoft"></i>
-            </div>
-
-            <div>
-
-                <span class="education-year">
-                    Microsoft Certification
-                </span>
-
-                <h3>
-                    Microsoft Certified: Azure Fundamentals
-                </h3>
-
-                <h4>
-                    AZ-900
-                </h4>
-
-                <p>
-                    Fundamentals of Microsoft Azure cloud services,
-                    architecture and core concepts.
+                <p class="card-text">
+                    <b>Completed – 2018</b>
                 </p>
 
             </div>
@@ -1012,81 +997,203 @@
 </section>
 
 
-<!-- =========================================================
-     CONTACT
-========================================================= -->
 
-<section id="contact"
-         class="section contact-section">
+<!-- =====================================================
+     CERTIFICATION + AWARD
+===================================================== -->
 
-    <div class="section-heading">
+<section id="certificates">
 
-        <span class="section-number">
-            07
+    <h1 class="section-heading mb75px">
+
+        <span>
+            <i class="fas fa-certificate"></i>
         </span>
 
-        <h2>
-            Let's Connect
-        </h2>
+        <span>
+            Certification & Recognition
+        </span>
+
+    </h1>
+
+
+    <div class="card-deck certification-deck">
+
+
+        <!-- AZ-900 -->
+
+        <div class="card certificate-card">
+
+            <div class="certificate-icon">
+
+                <i class="fa-brands fa-microsoft"></i>
+
+            </div>
+
+            <div class="card-body">
+
+                <h3>
+                    Microsoft Certified:
+                    Azure Fundamentals
+                </h3>
+
+                <p>
+                    AZ-900
+                </p>
+
+                <p class="certificate-description">
+
+                    Microsoft Azure fundamentals covering
+                    cloud concepts, Azure architecture,
+                    services and management.
+
+                </p>
+
+                <!-- Replace YOUR-CREDENTIAL-URL with your actual
+                     Microsoft credential URL -->
+
+                <a href="YOUR-CREDENTIAL-URL"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="card-link">
+
+                    View Credential
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- AWARD -->
+
+        <div class="card certificate-card">
+
+            <div class="award-large-icon">
+
+                <i class="fas fa-award"></i>
+
+            </div>
+
+            <div class="card-body">
+
+                <h3>
+                    Emerging Star Award – 2024
+                </h3>
+
+                <p>
+                    Adeption India
+                </p>
+
+                <p class="certificate-description">
+
+                    Recognized for outstanding performance
+                    and valuable contributions to the team.
+
+                </p>
+
+                <!-- We will connect your actual award image here
+                     once you upload it into images/ -->
+
+            </div>
+
+        </div>
+
 
     </div>
 
+</section>
 
-    <div class="contact-container">
 
-        <div class="contact-intro">
 
-            <h3>
-                Interested in working together?
-            </h3>
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section id="contact">
+
+    <h1 class="section-heading mb75px">
+
+        <span>
+            <i class="fas fa-address-card"></i>
+        </span>
+
+        <span>
+            Contact
+        </span>
+
+    </h1>
+
+
+    <div class="contact-details">
+
+
+        <div>
+
+            <h4>
+                <i class="fa-brands fa-linkedin"></i>
+
+                LinkedIn
+            </h4>
 
             <p>
-                I am open to Backend Developer and .NET opportunities
-                where I can work on backend systems, SQL Server and
-                cloud-based applications.
+
+                <a href="https://www.linkedin.com/in/prakhar-srivastava-036341237/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    View LinkedIn Profile
+
+                </a>
+
+            </p>
+
+
+            <h4>
+                <i class="fa-brands fa-github"></i>
+
+                GitHub
+            </h4>
+
+            <p>
+
+                <a href="https://github.com/prakhar0069"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    github.com/prakhar0069
+
+                </a>
+
             </p>
 
         </div>
 
 
-        <div class="contact-links">
+        <div>
 
-            <a href="https://www.linkedin.com/in/prakhar-srivastava-036341237"
-               target="_blank"
-               rel="noopener noreferrer"
-               class="contact-link">
+            <h4>
+                <i class="fas fa-code"></i>
 
-                <span class="contact-icon">
-                    <i class="fa-brands fa-linkedin"></i>
-                </span>
+                Backend Developer
+            </h4>
 
-                <span>
-                    LinkedIn
-                </span>
+            <p>
+                C# / .NET
+            </p>
 
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            <p>
+                SQL Server
+            </p>
 
-            </a>
-
-
-            <a href="https://github.com/prakhar0069"
-               target="_blank"
-               rel="noopener noreferrer"
-               class="contact-link">
-
-                <span class="contact-icon">
-                    <i class="fa-brands fa-github"></i>
-                </span>
-
-                <span>
-                    GitHub
-                </span>
-
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-
-            </a>
+            <p>
+                Microsoft Azure
+            </p>
 
         </div>
+
 
     </div>
 
@@ -1096,24 +1203,17 @@
 </main>
 
 
-<!-- =========================================================
-     FOOTER
-========================================================= -->
+<!-- =====================================================
+     BOOTSTRAP JS
+===================================================== -->
 
-<footer class="footer">
-
-    <p>
-        © 2026 Prakhar Srivastava
-    </p>
-
-    <p>
-        Backend Developer · C#/.NET · SQL Server · Azure
-    </p>
-
-</footer>
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js">
+</script>
 
 
 <script src="resume.js"></script>
 
 </body>
+
 </html>
