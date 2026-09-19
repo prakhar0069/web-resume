@@ -24,6 +24,8 @@ body{
 	background-image: url("./images/b.jpg");
 	background-position: center;
 	background-size: cover;
+	position: relative;
+	z-index: 2;
 }
 
 .horizental-list{
@@ -52,7 +54,9 @@ body{
 }
 
 
-/* Hero */
+/* =====================================================
+   HERO
+===================================================== */
 
 #my-name{
 	margin-top: 22vh;
@@ -64,21 +68,31 @@ body{
 }
 
 #hero-title{
-	color: white;
+	color: #8fd3ff;
 	font-size: 2.5rem;
-	font-weight: 500;
+	font-weight: 600;
 	margin: 0.3rem 0;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.35);
 }
 
 #hero-stack{
-	color: white;
+	color: #e6e6e6;
 	font-size: 1.4rem;
 	margin-top: 0.5rem;
+	font-weight: 400;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.35);
+}
+
+.social-icons{
+	position: relative;
+	z-index: 10;
 }
 
 .social-icons li{
-	margin-top: -20px;
+	margin-top: 10px;
 	border-radius: 50%;
+	position: relative;
+	z-index: 10;
 }
 
 .social-icons li:hover{
@@ -152,6 +166,7 @@ section:nth-child(2n){
 #about{
 	position: relative;
 	padding-bottom: 40px;
+	z-index: 1;
 }
 
 #about h3{
@@ -168,6 +183,8 @@ section:nth-child(2n){
 	height: 17rem;
 	width: 17rem;
 	margin: 10px auto 30px auto;
+	position: relative;
+	z-index: 1;
 }
 
 #my-image img{
@@ -230,7 +247,9 @@ section:nth-child(2n){
 }
 
 
-/* Skill colors */
+/* =====================================================
+   SKILL COLORS
+===================================================== */
 
 .mb-blue{
 	background-color: #0b48ab;
@@ -297,7 +316,9 @@ section:nth-child(2n){
 }
 
 
-/* Percentage Classes */
+/* =====================================================
+   PERCENTAGE CLASSES
+===================================================== */
 
 .eighty-five-percent{
 	height: inherit;
