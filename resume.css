@@ -1,16 +1,15 @@
 body{
-    margin: 0px;
-    padding-left: 0px;
-    overflow-x: hidden;
-    font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding-left: 0px;
+	overflow-x: hidden;
 }
 
 .text-center{
-    text-align: center;
+	text-align: center;
 }
 
 .mb75px{
-    margin-bottom: 75px;
+	margin-bottom: 75px;
 }
 
 
@@ -19,152 +18,130 @@ body{
 ===================================================== */
 
 #body-header{
-    height: 80vh;
-    width: 100vw;
-    opacity: 0.95;
-
-    background-image:
-        linear-gradient(
-            rgba(0,0,0,0.35),
-            rgba(0,0,0,0.35)
-        ),
-        url("./images/b.jpg");
-
-    background-position: center;
-    background-size: cover;
+	height: 80vh;
+	width: 100vw;
+	opacity: 0.9;
+	background-image: url("./images/b.jpg");
+	background-position: center;
+	background-size: cover;
 }
 
 .horizental-list{
-    list-style: none;
+	list-style: none;
 }
 
 .horizental-list li{
-    display: inline-block;
-    margin: 1.5rem;
+	display: inline-block;
+	margin: 1.5rem;
 }
 
 .horizental-list li a{
-    color: white;
-    font-size: 23px;
-    text-decoration: none;
-    transition: color 0.5s;
+	color: white;
+	font-size: 23px;
+	text-decoration: none;
+	transition: color 0.5s;
 }
 
 .nav-menu{
-    margin: 0;
-    padding-top: 5px;
+	margin: 0;
 }
 
 .nav-menu li a:hover{
-    color: lightgrey;
-    text-decoration: underline;
+	color: lightgrey;
+	text-decoration: underline;
 }
 
 
-/* =====================================================
-   HERO
-===================================================== */
+/* Hero */
 
 #my-name{
-    margin-top: 20vh;
-    font-size: 6.5rem;
-    letter-spacing: 0.08rem;
-    color: white;
-    font-weight: 600;
-    margin-bottom: 0.3rem;
+	margin-top: 22vh;
+	font-size: 8rem;
+	letter-spacing: 0.1rem;
+	color: white;
+	font-weight: 600;
+	margin-bottom: 0.4rem;
 }
 
 #hero-title{
-    color: white;
-    font-size: 2rem;
-    margin: 0;
-    font-weight: 500;
+	color: white;
+	font-size: 2.5rem;
+	font-weight: 500;
+	margin: 0.3rem 0;
 }
 
 #hero-stack{
-    color: white;
-    font-size: 1.2rem;
-    margin-top: 10px;
-}
-
-.social-icons{
-    padding-left: 0;
+	color: white;
+	font-size: 1.4rem;
+	margin-top: 0.5rem;
 }
 
 .social-icons li{
-    margin-top: 10px;
-    border-radius: 50%;
+	margin-top: -20px;
+	border-radius: 50%;
+}
+
+.social-icons li:hover{
+	box-shadow: 0px 0px 6px 4px rgba(255, 255, 255, 0.4);
 }
 
 .social-icons li a{
-    display: inline-flex;
-    width: 50px;
-    height: 50px;
-
-    align-items: center;
-    justify-content: center;
-
-    border-radius: 50%;
-
-    color: white;
-    font-size: 30px;
-
-    transition: all 0.3s ease;
+	font-size: 2rem;
 }
 
-.social-icons li a:hover{
-    box-shadow: 0px 0px 8px 4px rgba(255, 255, 255, 0.4);
-    transform: translateY(-3px);
+.git-img img{
+	border-radius: 50%;
+	margin-top: 3px;
+}
+
+.social-icons li a img{
+	margin-bottom: 6px;
+	width: 2.5rem;
+	padding: 2px 8px;
 }
 
 
 /* =====================================================
-   MAIN SECTIONS
+   MAIN / SECTIONS
 ===================================================== */
 
 section{
-    width: 100vw;
-    height: auto;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    padding-bottom: 50px;
+	width: 100vw;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 section:nth-child(2n+1){
-    background-color: white;
+	background-color: white;
 }
 
 section:nth-child(2n){
-    background-color: #f1f1f1;
+	background-color: #f1f1f1;
 }
 
 .section-heading{
-    font-weight: 400;
-    padding: 20px 10px 10px;
-
-    width: auto;
-    margin: 10px auto 45px;
+	font-weight: 400;
+	padding: 20px 10px 10px;
+	width: auto;
+	margin: 10px auto;
 }
 
 .section-heading span{
-    font-size: 40px;
-    color: #2857a4;
-
-    display: inline-block;
-
-    padding-top: 10px;
-    margin-right: 0.5rem;
+	font-size: 40px;
+	color: #2857a4;
+	display: inline-block;
+	padding-top: 10px;
+	margin-right: 0.5rem;
 }
 
 .section-heading span img{
-    width: 65px;
-    color: #2857a4;
-    display: inline-block;
-    padding-top: 10px;
-    margin-right: 0rem;
+	width: 65px;
+	color: #2857a4;
+	display: inline-block;
+	padding-top: 10px;
+	margin-right: 0rem;
 }
 
 
@@ -173,63 +150,42 @@ section:nth-child(2n){
 ===================================================== */
 
 #about{
-    position: relative;
-}
-
-#my-image{
-    height: 17rem;
-    width: 17rem;
-
-    margin: auto;
-    margin-bottom: -50px;
-}
-
-#my-image img{
-    height: 100%;
-    width: 100%;
-
-    border-radius: 50%;
-
-    margin-top: -50%;
-
-    border: 4px solid white;
-
-    box-shadow:
-        0px 0px 9px 3px white;
+	position: relative;
+	padding-bottom: 40px;
 }
 
 #about h3{
-    margin-bottom: 4rem;
-    margin-top: -40px;
-
-    text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
 }
 
 #about h3 small{
-    color: #434446;
-    font-size: 1.4rem;
+	color: #434446;
+}
+
+#my-image{
+	height: 17rem;
+	width: 17rem;
+	margin: 10px auto 30px auto;
+}
+
+#my-image img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	margin-top: 0;
+	border: 4px solid white;
+	box-shadow: 0px 0px 9px 3px white;
+	display: block;
 }
 
 #about p{
-    margin: auto;
-
-    width: 80%;
-
-    font-size: 1.25rem;
-
-    line-height: 1.8;
-
-    color: #554d4d;
-
-    font-family: Arial, Helvetica, sans-serif;
-
-    text-align: center;
-
-    margin-bottom: 25px;
-}
-
-.about-second{
-    margin-top: 15px;
+	margin: 15px auto;
+	width: 80%;
+	font-size: 1.6rem;
+	color: #554d4d;
+	font-family: serif;
 }
 
 
@@ -238,386 +194,208 @@ section:nth-child(2n){
 ===================================================== */
 
 #skills{
-    margin-top: 40px;
+	margin-top: 70px;
 }
 
 .skill-display{
-    width: 78%;
-
-    margin-bottom: 40px;
-
-    display: flex;
-
-    flex-wrap: wrap;
-
-    justify-content: space-evenly;
+	width: 75%;
+	margin-bottom: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 .skill-progress{
-    width: 12rem;
-    height: 2.4rem;
-
-    background-color: rgb(255,255,255);
-
-    border-radius: 1rem;
-
-    box-shadow:
-        1px 1px 2px 1px #b8b6b6;
-
-    margin: 25px;
-
-    overflow: hidden;
+	width: 11rem;
+	height: 2.2rem;
+	background-color: rgb(255, 255, 255);
+	border-radius: 1rem;
+	box-shadow: 1px 1px 2px 1px #b8b6b6;
+	margin: 35px;
+	overflow: hidden;
 }
 
-.skill-progress > div{
-    border-radius: 1rem 0rem 0rem 1rem;
-
-    box-shadow:
-        1px 1px 5px 1px #949485;
-
-    width: 100%;
-    height: 100%;
+.skill-progress>div{
+	border-radius: 1rem 0rem 0rem 1rem;
+	box-shadow: 1px 1px 5px 1px #949485;
 }
 
 .skill-name span{
-    color: white;
-
-    font-size: 0.95rem;
-
-    font-family:
-        Arial,
-        Helvetica,
-        sans-serif;
-
-    font-weight: 600;
-
-    margin-left: 1rem;
-    margin-top: 0.35rem;
-
-    position: absolute;
+	color: white;
+	font-size: 1.1rem;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin-left: 1rem;
+	margin-top: 0.25rem;
+	position: absolute;
 }
 
 
-/* =====================================================
-   SKILL COLORS
-===================================================== */
+/* Skill colors */
 
 .mb-blue{
-    background-color: #0b48ab;
+	background-color: #0b48ab;
 }
 
 .mb-org{
-    background-color: #f38360;
+	background-color: #f38360;
 }
 
 .mb-pink{
-    background-color: rgb(245,102,125);
+	background-color: rgb(245, 102, 125);
 }
 
 .mb-brown{
-    background-color: rgb(151,70,82);
+	background-color: rgb(151, 70, 82);
 }
 
 .mb-red{
-    background-color: rgb(248,29,29);
+	background-color: rgb(248, 29, 29);
 }
 
-.mb-orange{
-    background-color: #ec4d1c;
+.mb-yellow{
+	background-color: rgb(182, 203, 25);
 }
 
-.mb-teal{
-    background-color: #0b8176;
+.mb-gold{
+	background-color: rgb(190, 181, 91);
 }
 
-.mb-light-purple{
-    background-color: #d760bd;
-}
-
-.mb-cyan{
-    background-color: rgb(5,173,173);
+.mb-grey{
+	background-color: rgb(79, 81, 69);
 }
 
 .mb-og{
-    background-color: rgb(255,159,4);
+	background-color: rgb(255, 159, 4);
 }
 
-.mb-gn{
-    background-color: #196F3D;
+.mb-orange{
+	background-color: #ec4d1c;
+}
+
+.mb-teal{
+	background-color: #0b8176;
+}
+
+.mb-light-purple{
+	background-color: #d760bd;
+}
+
+.mb-cyan{
+	background-color: rgb(5, 173, 173);
+}
+
+.mb-lime{
+	background-color: #05b55d;
 }
 
 .mb-ogn{
-    background-color: #FF5733;
+	background-color: #FF5733;
+}
+
+.mb-gn{
+	background-color: #196F3D;
+}
+
+
+/* Percentage Classes */
+
+.eighty-five-percent{
+	height: inherit;
+	width: 85%;
+}
+
+.eighty-percent{
+	height: inherit;
+	width: 80%;
+}
+
+.fifty-percent{
+	height: inherit;
+	width: 50%;
 }
 
 .ninty-percent{
-    width: 100%;
-    height: inherit;
+	width: 90%;
+	height: inherit;
 }
 
 
 /* =====================================================
-   PROJECT TIMELINE
+   PROJECTS / TIMELINE
 ===================================================== */
 
 .timeline{
-    position: relative;
-    width: 75%;
+	position: relative;
+	width: 75%;
 }
 
 .timeline-box{
-    position: relative;
-
-    width: 40%;
-
-    left: 5%;
-
-    min-height: 250px;
-
-    margin: 10px;
+	position: relative;
+	width: 40%;
+	left: 5%;
+	min-height: 250px;
+	margin: 10px;
 }
 
 .timeline-box .card{
-    box-shadow:
-        0 0 2px 1px rgb(215,230,247);
+	box-shadow: 0 0 2px 1px rgb(215, 230, 247);
 }
 
 .card{
-    border-width: 0px;
-    margin-top: 70px;
+	border-width: 0px;
+	margin-top: 70px;
 }
 
 .card-title{
-    color: #fe5b36;
-    font-weight: 600;
+	color: #fe5b36;
 }
 
 .card-link{
-    font-weight: 500;
-    color: #2857a4;
-    text-decoration: none;
+	font-weight: 500;
 }
-
-.card-link:hover{
-    text-decoration: underline;
-}
-
-.card-subtitle{
-    line-height: 1.5;
-}
-
-
-/* TIMELINE DOTS */
 
 .timeline-box:nth-child(2n+1)::after{
-    content: '';
-
-    border-radius: 50%;
-
-    width: 0.5rem;
-    height: 0.5rem;
-
-    position: absolute;
-
-    top: 0%;
-
-    right: -11.6%;
-
-    background-color: blue;
-
-    z-index: 1;
+	content: '';
+	border-radius: 50%;
+	width: 0.5rem;
+	height: 0.5rem;
+	position: absolute;
+	top: 0%;
+	right: -11.6%;
+	background-color: blue;
+	z-index: 1;
 }
 
 .timeline-box:nth-child(2n)::after{
-    content: '';
-
-    border-radius: 50%;
-
-    width: 0.5rem;
-    height: 0.5rem;
-
-    position: absolute;
-
-    top: 0%;
-
-    left: -10.2%;
-
-    background-color: blue;
-
-    z-index: 1;
+	content: '';
+	border-radius: 50%;
+	width: 0.5rem;
+	height: 0.5rem;
+	position: absolute;
+	top: 0%;
+	left: -10.2%;
+	background-color: blue;
+	z-index: 1;
 }
 
 .timeline-box:nth-child(2n){
-    left: 53%;
+	left: 53%;
 }
 
-
-/* TIMELINE */
-
 .timeline-divider{
-    position: absolute;
-
-    height: 85%;
-
-    width: 0;
-
-    border: 2px dashed lightblue;
-
-    top: 2%;
-
-    left: 50%;
+	position: absolute;
+	height: 85%;
+	width: 0;
+	border: 2px dashed lightblue;
+	top: 2%;
+	left: 50%;
 }
 
 .timeline-traveller{
-    position: sticky;
-
-    top: 20%;
-
-    transform: rotate(90deg);
-
-    color: rgb(13,127,220);
-}
-
-
-/* =====================================================
-   PROFESSIONAL PROJECT IMAGE
-===================================================== */
-
-.professional-project-image{
-
-    height: 180px;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    background:
-        linear-gradient(
-            135deg,
-            #2857a4,
-            #4b7bec
-        );
-
-    color: white;
-
-    font-size: 65px;
-}
-
-
-/* =====================================================
-   EXPERIENCE
-===================================================== */
-
-#experience{
-    padding-bottom: 70px;
-}
-
-.experience-container{
-    width: 75%;
-    max-width: 950px;
-}
-
-.experience-company{
-
-    background: white;
-
-    padding: 35px;
-
-    border-radius: 8px;
-
-    box-shadow:
-        0 0 8px rgba(0,0,0,0.12);
-
-}
-
-.experience-company h2{
-    color: #2857a4;
-    margin-bottom: 5px;
-}
-
-.experience-company h3{
-    color: #fe5b36;
-    margin: 0 0 5px 0;
-}
-
-.experience-date{
-    color: #777;
-    font-size: 0.95rem;
-    margin-bottom: 25px;
-}
-
-.experience-company p{
-    line-height: 1.7;
-}
-
-.experience-company ul{
-    margin-top: 20px;
-    padding-left: 22px;
-}
-
-.experience-company li{
-    margin-bottom: 12px;
-    line-height: 1.6;
-}
-
-
-/* =====================================================
-   AWARD
-===================================================== */
-
-.award-card{
-
-    margin-top: 30px;
-
-    width: 100%;
-
-    display: flex;
-
-    align-items: center;
-
-    gap: 20px;
-
-    padding: 25px;
-
-    background: white;
-
-    border-radius: 8px;
-
-    box-shadow:
-        0 0 8px rgba(0,0,0,0.12);
-}
-
-.award-image-placeholder{
-
-    width: 70px;
-    height: 70px;
-
-    flex-shrink: 0;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    border-radius: 50%;
-
-    background: #2857a4;
-
-    color: white;
-
-    font-size: 32px;
-}
-
-.award-content h3{
-    color: #fe5b36;
-    margin: 0 0 7px 0;
-}
-
-.award-content p{
-    margin: 0;
+	position: sticky;
+	top: 20%;
+	transform: rotate(90deg);
+	color: rgb(13, 127, 220);
 }
 
 
@@ -625,117 +403,143 @@ section:nth-child(2n){
    EDUCATION
 ===================================================== */
 
-.educations{
-    position: relative;
-    height: auto;
+.education{
+	position: relative;
+	height: auto;
 }
 
 .card-deck{
-    width: 75vw;
-
-    margin-bottom: 3rem;
-
-    font-weight: 500;
-
-    display: flex;
-
-    gap: 25px;
-}
-
-.educations .card{
-    flex: 1;
-    margin-top: 0;
-}
-
-.educations .card-body{
-    padding: 25px;
-}
-
-.education-icon-large{
-
-    height: 150px;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    background: rgba(0,0,0,0.15);
-
-    font-size: 55px;
+	width: 75vw;
+	margin-bottom: 3rem;
+	font-weight: 500;
 }
 
 
 /* =====================================================
-   CERTIFICATION
+   CERTIFICATES
 ===================================================== */
 
-#certificates{
-    padding-bottom: 80px;
+#certificates .card:hover p{
+	font-size: large;
 }
 
+.card-cf-details p{
+	text-align: center;
+	transition: all 0.5s ease-in-out;
+	margin-top: 20px;
+}
+
+
+/* =====================================================
+   AWARD / EXPERIENCE
+===================================================== */
+
+.experience-container{
+	width: 75vw;
+	margin-bottom: 60px;
+}
+
+.experience-company{
+	width: 100%;
+}
+
+.experience-company h2{
+	color: #fe5b36;
+	margin-bottom: 5px;
+}
+
+.experience-company h3{
+	margin: 0 0 10px 0;
+}
+
+.experience-company .experience-date{
+	font-weight: 500;
+	color: #777;
+}
+
+.experience-company p{
+	font-size: 1.05rem;
+	line-height: 1.6;
+}
+
+.experience-company li{
+	margin-bottom: 12px;
+	line-height: 1.6;
+}
+
+.award-card{
+	display: flex;
+	align-items: center;
+	gap: 25px;
+	width: 100%;
+	margin-top: 35px;
+	padding: 25px;
+	background-color: white;
+	box-shadow: 0 0 5px rgba(0,0,0,0.12);
+}
+
+.award-image-placeholder{
+	width: 120px;
+	height: 120px;
+	min-width: 120px;
+	border-radius: 8px;
+	background-color: #f1f1f1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.award-image-placeholder i{
+	font-size: 55px;
+	color: #d6a300;
+}
+
+.award-content h3{
+	margin: 0 0 10px 0;
+}
+
+.award-content p{
+	margin: 0;
+}
+
+
+/* =====================================================
+   CERTIFICATION CARDS
+===================================================== */
+
 .certification-deck{
-    align-items: stretch;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	gap: 30px;
 }
 
 .certificate-card{
-
-    background: white;
-
-    border: none;
-
-    box-shadow:
-        0 0 8px rgba(0,0,0,0.12);
-
-    border-radius: 8px;
-
-    overflow: hidden;
-
-    margin-top: 0;
+	width: 45%;
+	min-width: 300px;
+	margin-top: 20px;
+	padding: 20px;
+	box-shadow: 0 0 4px rgba(0,0,0,0.15);
 }
 
 .certificate-icon,
 .award-large-icon{
-
-    height: 170px;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    color: white;
-
-    font-size: 70px;
-
-    background:
-        linear-gradient(
-            135deg,
-            #2857a4,
-            #4b7bec
-        );
+	font-size: 55px;
+	text-align: center;
+	padding: 20px;
+	color: #2857a4;
 }
 
 .award-large-icon{
-
-    background:
-        linear-gradient(
-            135deg,
-            #d97706,
-            #f59e0b
-        );
+	color: #d6a300;
 }
 
-.certificate-card h3{
-    color: #2857a4;
-
-    margin-bottom: 10px;
+.certificate-card .card-body{
+	text-align: center;
 }
 
 .certificate-description{
-    color: #666;
+	line-height: 1.6;
 }
 
 
@@ -744,74 +548,45 @@ section:nth-child(2n){
 ===================================================== */
 
 #contact{
-
-    background-repeat: no-repeat;
-
-    background-size: cover;
-
-    background-image:
-        linear-gradient(
-            113.3deg,
-            rgba(217,9,27,1) 6.9%,
-            rgba(22,68,150,1) 75%
-        );
-
-    color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: linear-gradient(
+		113.3deg,
+		rgba(217,9,27,1) 6.9%,
+		rgba(22,68,150,1) 75%
+	);
+	color: white;
 }
 
 #contact h1 span{
-    color: white;
+	color: white;
 }
 
 .contact-details{
-
-    width: 60vw;
-
-    display: flex;
-
-    justify-content: space-between;
-
-    gap: 80px;
-
-    margin-bottom: 80px;
+	width: 60vw;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px;
 }
 
 .contact-details p{
-
-    margin-left: 1.9rem;
-
-    font-size: large;
+	margin-left: 1.9rem;
+	font-size: large;
 }
 
-.contact-details h4{
-    margin-bottom: 15px;
+.contact-details img{
+	width: 25px;
+	height: 25px;
+	margin-right: 5px;
+	margin-top: -8px;
+	border-radius: 5px;
 }
 
-.contact-details a{
-    color: white;
+.contact-details div h4{
+	margin-bottom: 40px;
 }
 
-.contact-details a:hover{
-    text-decoration: underline;
-}
-
-
-/* =====================================================
-   MOBILE SAFETY
-===================================================== */
-
-@media screen and (max-width: 600px){
-
-    .contact-details{
-        width: 80vw;
-    }
-
-    .experience-container{
-        width: 85vw;
-    }
-
-    .card-deck{
-        width: 80vw;
-    }
-
+.address p{
+	margin-bottom: 40px;
+	margin-top: -30px;
 }
