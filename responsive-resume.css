@@ -1,164 +1,252 @@
-/* ----------------------------------- Header Section ------------------------------------- */
-@media screen and (max-width: 600px){
-    #body-header{
-        height: 50vh;
-    }
-    .horizental-list li a{
-        color: white;
-        font-size: 12px;
-        font-weight: 500;
-        text-decoration: none;
-        transition: color 0.5s;
-    }
-    .horizental-list{
-        padding-left: 0px;
-    }
-    .horizental-list li{
-        margin: 5px;
-    }
-    #my-name{
-        margin-top: 18vh;
-        font-size: 3rem;
-        color: white;
-        font-weight: 600;
-        margin-bottom: 0.1rem;
-    }
-    .social-icons li a img{
-        margin-bottom: 6px;
-        width: 1.8rem;
-        padding:2px 8px;
-    }
-    .social-icons{
-        margin-bottom: 0px;
-    }
-}
+/* =========================================================
+   TABLET
+========================================================= */
 
-/* ----------------------------------- About Section ------------------------------------- */
-@media screen and (max-width: 600px){
-    #my-image{
-        height: 12rem;
-        width: 12rem;
-        margin: auto;
-        margin-bottom: -50px;
-    }
-    h3{
-        font-size: 16px;
-        width: 85vw;
-        margin-bottom: 3rem;
+@media screen and (max-width: 900px) {
+
+    .hero {
+        grid-template-columns: 1fr;
         text-align: center;
-        margin-top: -20px;
+        gap: 40px;
     }
-    #about p{
-        margin: auto;
-        width: 85vw;
-        font-size: 14px;
-        color: #554d4d;
-        font-family: serif;
-        margin-top: -20px;
-        margin-bottom: -15px;
+
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    #about{
-        margin-bottom: -15px;
+
+    .hero-description {
+        max-width: 650px;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    .hero-image {
+        order: -1;
+    }
+
+    .image-ring {
+        width: 230px;
+        height: 230px;
+    }
+
+    .about-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .featured-project {
+        grid-column: span 1;
+    }
+
+    .earlier-projects-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 35px;
     }
 }
 
-/* ----------------------------------- Skills Section ------------------------------------- */
-@media screen and (max-width: 600px){
-    .skill-progress{
-        width: 13rem;
-    }
-}
 
+/* =========================================================
+   MOBILE
+========================================================= */
 
-/* ----------------------------------- Projects Section ------------------------------------- */
-@media screen and (max-width: 600px){
-    .timeline-divider{
-        left: -5%;
-        height: 85.8%;
+@media screen and (max-width: 650px) {
+
+    html {
+        scroll-padding-top: 70px;
     }
-    .timeline-box:nth-child(2n+1)::after{
-        left: -18.8%;
+
+    .header {
+        min-height: auto;
     }
-    .timeline-box:nth-child(2n)::after{
-        left: -18.8%;
-    } 
-    .timeline-box{
+
+    .navbar {
+        min-height: 70px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+
+        top: 70px;
+        left: 0;
+        right: 0;
+
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+
+        gap: 0;
+
+        background: #0f172a;
+        border-top: 1px solid #1e293b;
+
+        padding: 10px 5% 20px;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        width: 100%;
+    }
+
+    .nav-links a {
+        display: block;
+        padding: 11px 0;
+    }
+
+    .hero {
         width: 90%;
-        left: 8% !important;
-    }   
-    .timeline{
-        margin-bottom: 60px;
+        min-height: auto;
+
+        padding: 60px 0 80px;
+
+        gap: 35px;
     }
-        
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero h2 {
+        font-size: 1.05rem;
+        line-height: 1.6;
+    }
+
+    .hero-description {
+        font-size: 0.9rem;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .section {
+        padding: 70px 5%;
+    }
+
+    .section-heading {
+        margin-bottom: 40px;
+    }
+
+    .section-heading h2 {
+        font-size: 2rem;
+    }
+
+    .about-text p {
+        font-size: 0.92rem;
+    }
+
+    .experience-header {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .experience-header h3 {
+        font-size: 1.35rem;
+    }
+
+    .experience-date {
+        white-space: normal;
+    }
+
+    .project-card {
+        padding: 25px;
+    }
+
+    .project-content h3 {
+        font-size: 1.15rem;
+        padding-right: 20px;
+    }
+
+    .project-number {
+        font-size: 3rem;
+    }
+
+    .earlier-projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skill-group {
+        padding: 22px;
+        gap: 13px;
+    }
+
+    .skill-group-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .education-card {
+        padding: 22px;
+        gap: 15px;
+    }
+
+    .education-card h3 {
+        font-size: 1rem;
+    }
+
+    .award-card {
+        align-items: flex-start;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 6px;
+    }
 }
 
-/* ----------------------------------- Education Section ------------------------------------- */
-@media screen and (max-width: 600px){
-    #education{
-        background-color: #ffffff;
-        background-image: linear-gradient(90deg, #fffefb 0%, #fdeef3 100%);
 
-    }
-    .educations .card-deck{
-        width: 80vw;
-    }   
-}
+/* =========================================================
+   SMALL PHONES
+========================================================= */
 
-/* ----------------------------------- Details Section ------------------------------------- */
-@media screen and (max-width: 600px){
-    #details{
-        width: 0vw;
-        height: 0vh;
-        margin: 0ch;
-        margin-right: 0px;
-        color: rgb(23, 22, 22);
+@media screen and (max-width: 400px) {
+
+    .hero h1 {
+        font-size: 2.5rem;
     }
-    #details h1 span{
-       color: transparent;
+
+    .hero h2 {
+        font-size: 0.95rem;
     }
-    #details .detl-img{
-        width: 0px;
-        height: 0px;
+
+    .btn {
+        width: 100%;
+        text-align: center;
     }
-    .details{
-        width: 0vw;   
+
+    .hero-buttons {
+        width: 100%;
     }
-    .details-slide{
-        width: 0vw;
+
+    .image-ring {
+        width: 190px;
+        height: 190px;
+    }
+
+    .section-heading h2 {
+        font-size: 1.7rem;
     }
 }
-
-/* git add .     git commit -m "contact section"       git push -u origin main   */
-/* ----------------------------------- contact Section ------------------------------------- */
-@media screen and (max-width: 600px){
-   .address{
-    margin-right: 40px;
-    width: 40vw;
-   }
-   .contact-details{
-    width: 60vw;
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 160px;
-   }
-   .contact-details div h4{
-	font-size: 20px;
-    }
-    .contact-details img{
-        width: 20px;
-        height: 20px;
-    }
-    .contact-details p{
-        margin-bottom: 30px;
-        margin-left: 1rem;
-        font-size: 14px;
-    }
-}
-
-
-
-
-
-
-
-
